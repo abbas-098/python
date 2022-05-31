@@ -1,0 +1,3564 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eed05637d4494d859e33c0b6571c09d7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_eed05637d4494d859e33c0b6571c09d7" ></div>
+        
+</body>
+<script>    
+    
+            var map_eed05637d4494d859e33c0b6571c09d7 = L.map(
+                "map_eed05637d4494d859e33c0b6571c09d7",
+                {
+                    center: [38.58, -99.09],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0d0d65b1dfa148b58e2e9ab57342ca66 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_eed05637d4494d859e33c0b6571c09d7);
+        
+    
+            var feature_group_4e1d6f3a45e74584ba742604bd1e10da = L.featureGroup(
+                {}
+            ).addTo(map_eed05637d4494d859e33c0b6571c09d7);
+        
+    
+            var circle_marker_fdf0392f4535450c9ebf8fb4f9f77f55 = L.circleMarker(
+                [46.206, -121.49],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_cce82451fa734824a31ff115b36945f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed2c68b97d7244838db346ebda07e6d4 = $(`<div id="html_ed2c68b97d7244838db346ebda07e6d4" style="width: 100.0%; height: 100.0%;">Elevation: 3742.0m Name: Adams Type: Stratovolcano</div>`)[0];
+            popup_cce82451fa734824a31ff115b36945f6.setContent(html_ed2c68b97d7244838db346ebda07e6d4);
+        
+
+        circle_marker_fdf0392f4535450c9ebf8fb4f9f77f55.bindPopup(popup_cce82451fa734824a31ff115b36945f6)
+        ;
+
+        
+    
+    
+            var circle_marker_11a49698c0d94c3d8092bcdcaafe5d22 = L.circleMarker(
+                [18.77, 145.67],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_f7f206e1ffa24845ab58f27b2f56201f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_408d55e5c2c348839a4ba3ae499fddf5 = $(`<div id="html_408d55e5c2c348839a4ba3ae499fddf5" style="width: 100.0%; height: 100.0%;">Elevation: 965.0m Name: Agrigan Type: Stratovolcano</div>`)[0];
+            popup_f7f206e1ffa24845ab58f27b2f56201f.setContent(html_408d55e5c2c348839a4ba3ae499fddf5);
+        
+
+        circle_marker_11a49698c0d94c3d8092bcdcaafe5d22.bindPopup(popup_f7f206e1ffa24845ab58f27b2f56201f)
+        ;
+
+        
+    
+    
+            var circle_marker_848c0c9b2bfc41ec845420b28a3ad90a = L.circleMarker(
+                [20.42, 145.03],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_beed143566ce4a159de3c4ed490a3d6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf58c1a1de784e379ae09783c3685638 = $(`<div id="html_bf58c1a1de784e379ae09783c3685638" style="width: 100.0%; height: 100.0%;">Elevation: -137.0m Name: Ahyi Type: Submarine volcano</div>`)[0];
+            popup_beed143566ce4a159de3c4ed490a3d6a.setContent(html_bf58c1a1de784e379ae09783c3685638);
+        
+
+        circle_marker_848c0c9b2bfc41ec845420b28a3ad90a.bindPopup(popup_beed143566ce4a159de3c4ed490a3d6a)
+        ;
+
+        
+    
+    
+            var circle_marker_74e982211f3c499abdd876d7c6d2fb96 = L.circleMarker(
+                [54.13, -165.97],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0ed20d7a5dab4a8b83b185db1bd15ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8e88ab50e454e2facfbf374ac42c9a7 = $(`<div id="html_a8e88ab50e454e2facfbf374ac42c9a7" style="width: 100.0%; height: 100.0%;">Elevation: 1303.0m Name: Akutan Type: Stratovolcano</div>`)[0];
+            popup_0ed20d7a5dab4a8b83b185db1bd15ab6.setContent(html_a8e88ab50e454e2facfbf374ac42c9a7);
+        
+
+        circle_marker_74e982211f3c499abdd876d7c6d2fb96.bindPopup(popup_0ed20d7a5dab4a8b83b185db1bd15ab6)
+        ;
+
+        
+    
+    
+            var circle_marker_9b2a24f8a5374f0dbaaa4a8c9d6ebd87 = L.circleMarker(
+                [17.6, 145.83],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d6370ad28127454b92fadeda5fdfe15b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c44e740ed68846d39cbf5528ab4b53a9 = $(`<div id="html_c44e740ed68846d39cbf5528ab4b53a9" style="width: 100.0%; height: 100.0%;">Elevation: 744.0m Name: Alamagan Type: Stratovolcano</div>`)[0];
+            popup_d6370ad28127454b92fadeda5fdfe15b.setContent(html_c44e740ed68846d39cbf5528ab4b53a9);
+        
+
+        circle_marker_9b2a24f8a5374f0dbaaa4a8c9d6ebd87.bindPopup(popup_d6370ad28127454b92fadeda5fdfe15b)
+        ;
+
+        
+    
+    
+            var circle_marker_348be96cca874e3b94aadabdb5f1a64f = L.circleMarker(
+                [55.42, -163.15],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4980ac21bdc14a40a64316db193ee407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a643e2a1a3dd41d68f90532ad1d43e38 = $(`<div id="html_a643e2a1a3dd41d68f90532ad1d43e38" style="width: 100.0%; height: 100.0%;">Elevation: 513.0m Name: Amak Type: Stratovolcano</div>`)[0];
+            popup_4980ac21bdc14a40a64316db193ee407.setContent(html_a643e2a1a3dd41d68f90532ad1d43e38);
+        
+
+        circle_marker_348be96cca874e3b94aadabdb5f1a64f.bindPopup(popup_4980ac21bdc14a40a64316db193ee407)
+        ;
+
+        
+    
+    
+            var circle_marker_396e952c4eeb4e3d8e517cef7ad61a13 = L.circleMarker(
+                [34.55, -115.78],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_fa3bf6190bc84900b2e89115ee96f74a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afce855b26ed4282ac2edfa126076e55 = $(`<div id="html_afce855b26ed4282ac2edfa126076e55" style="width: 100.0%; height: 100.0%;">Elevation: 288.0m Name: Amboy Type: Cinder cone</div>`)[0];
+            popup_fa3bf6190bc84900b2e89115ee96f74a.setContent(html_afce855b26ed4282ac2edfa126076e55);
+        
+
+        circle_marker_396e952c4eeb4e3d8e517cef7ad61a13.bindPopup(popup_fa3bf6190bc84900b2e89115ee96f74a)
+        ;
+
+        
+    
+    
+            var circle_marker_9cebd952e3a54e28b7fdf8764149f31f = L.circleMarker(
+                [52.5, -171.25],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d64e396ac66648a79680a0e410963876 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3e979bd1d9a4ad0814ce2d31ab350e4 = $(`<div id="html_a3e979bd1d9a4ad0814ce2d31ab350e4" style="width: 100.0%; height: 100.0%;">Elevation: 1066.0m Name: Amukta Type: Stratovolcano</div>`)[0];
+            popup_d64e396ac66648a79680a0e410963876.setContent(html_a3e979bd1d9a4ad0814ce2d31ab350e4);
+        
+
+        circle_marker_9cebd952e3a54e28b7fdf8764149f31f.bindPopup(popup_d64e396ac66648a79680a0e410963876)
+        ;
+
+        
+    
+    
+            var circle_marker_229d00c74fff4175946a13c0f50824e5 = L.circleMarker(
+                [16.35, 145.67],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_23ee25639a0c499888133d923821ce2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f326a226a0d4587801409c14f042ddc = $(`<div id="html_3f326a226a0d4587801409c14f042ddc" style="width: 100.0%; height: 100.0%;">Elevation: 788.0m Name: Anatahan Type: Stratovolcano</div>`)[0];
+            popup_23ee25639a0c499888133d923821ce2e.setContent(html_3f326a226a0d4587801409c14f042ddc);
+        
+
+        circle_marker_229d00c74fff4175946a13c0f50824e5.bindPopup(popup_23ee25639a0c499888133d923821ce2e)
+        ;
+
+        
+    
+    
+            var circle_marker_47b228b3ee4b4b80a6c15c35961dc8f6 = L.circleMarker(
+                [56.88, -158.17],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_3b50fed8cd2342739be68c13b411ed47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_212fa79903ad4a8abfb5b9cf2b9b0fcb = $(`<div id="html_212fa79903ad4a8abfb5b9cf2b9b0fcb" style="width: 100.0%; height: 100.0%;">Elevation: 1341.0m Name: Aniakchak Type: Caldera</div>`)[0];
+            popup_3b50fed8cd2342739be68c13b411ed47.setContent(html_212fa79903ad4a8abfb5b9cf2b9b0fcb);
+        
+
+        circle_marker_47b228b3ee4b4b80a6c15c35961dc8f6.bindPopup(popup_3b50fed8cd2342739be68c13b411ed47)
+        ;
+
+        
+    
+    
+            var circle_marker_7a6a694b50fc4da688f12d7b4e0d9b33 = L.circleMarker(
+                [19.67, 145.4],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_8da12184fa744304ad4582a5cff402ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_324dc064917e4486aaf69f61260d0d7f = $(`<div id="html_324dc064917e4486aaf69f61260d0d7f" style="width: 100.0%; height: 100.0%;">Elevation: 857.0m Name: Asuncion Type: Stratovolcano</div>`)[0];
+            popup_8da12184fa744304ad4582a5cff402ae.setContent(html_324dc064917e4486aaf69f61260d0d7f);
+        
+
+        circle_marker_7a6a694b50fc4da688f12d7b4e0d9b33.bindPopup(popup_8da12184fa744304ad4582a5cff402ae)
+        ;
+
+        
+    
+    
+            var circle_marker_88db96b0d6654f719598db8b0c554bbe = L.circleMarker(
+                [52.38, -174.15],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_be779e2cfed7474e9ca50674cf4b8c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_588275b64d104206b20d34982dc94403 = $(`<div id="html_588275b64d104206b20d34982dc94403" style="width: 100.0%; height: 100.0%;">Elevation: 1533.0m Name: Atka Type: Stratovolcano</div>`)[0];
+            popup_be779e2cfed7474e9ca50674cf4b8c58.setContent(html_588275b64d104206b20d34982dc94403);
+        
+
+        circle_marker_88db96b0d6654f719598db8b0c554bbe.bindPopup(popup_be779e2cfed7474e9ca50674cf4b8c58)
+        ;
+
+        
+    
+    
+            var circle_marker_fa4e22e5844543729c89744cd3753b62 = L.circleMarker(
+                [59.37, -153.42],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d5b0431463cf40d98f110896b378e4b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cb8d0f186b9462596db11e64d3aae73 = $(`<div id="html_8cb8d0f186b9462596db11e64d3aae73" style="width: 100.0%; height: 100.0%;">Elevation: 1252.0m Name: Augustine Type: Lava dome</div>`)[0];
+            popup_d5b0431463cf40d98f110896b378e4b9.setContent(html_8cb8d0f186b9462596db11e64d3aae73);
+        
+
+        circle_marker_fa4e22e5844543729c89744cd3753b62.bindPopup(popup_d5b0431463cf40d98f110896b378e4b9)
+        ;
+
+        
+    
+    
+            var circle_marker_6b5c58f95cc74f029c4bdff4c0f107f5 = L.circleMarker(
+                [43.979, -121.688],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_6a5f401d49784ff28e62f6dc651cf54e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_665f32dfaa6a414e88f635dc0e63591b = $(`<div id="html_665f32dfaa6a414e88f635dc0e63591b" style="width: 100.0%; height: 100.0%;">Elevation: 2763.0m Name: Bachelor Type: Stratovolcano</div>`)[0];
+            popup_6a5f401d49784ff28e62f6dc651cf54e.setContent(html_665f32dfaa6a414e88f635dc0e63591b);
+        
+
+        circle_marker_6b5c58f95cc74f029c4bdff4c0f107f5.bindPopup(popup_6a5f401d49784ff28e62f6dc651cf54e)
+        ;
+
+        
+    
+    
+            var circle_marker_606edafd11ea49c19cf86181688a130a = L.circleMarker(
+                [48.786, -121.82],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d59db0d4e3b54058b14f9c833567ad7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afefcf7912884ee48ac58af87bcae462 = $(`<div id="html_afefcf7912884ee48ac58af87bcae462" style="width: 100.0%; height: 100.0%;">Elevation: 3285.0m Name: Baker Type: Stratovolcano</div>`)[0];
+            popup_d59db0d4e3b54058b14f9c833567ad7c.setContent(html_afefcf7912884ee48ac58af87bcae462);
+        
+
+        circle_marker_606edafd11ea49c19cf86181688a130a.bindPopup(popup_d59db0d4e3b54058b14f9c833567ad7c)
+        ;
+
+        
+    
+    
+            var circle_marker_b2d3229afea942459c34e42cac1fac1c = L.circleMarker(
+                [37.328, -112.408],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_e6a96bfaf8a84b25a9168560d0eed446 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a9a8681a9a043fb8294f21cc3ad2150 = $(`<div id="html_3a9a8681a9a043fb8294f21cc3ad2150" style="width: 100.0%; height: 100.0%;">Elevation: 2135.0m Name: Bald Knoll Type: Cinder cone</div>`)[0];
+            popup_e6a96bfaf8a84b25a9168560d0eed446.setContent(html_3a9a8681a9a043fb8294f21cc3ad2150);
+        
+
+        circle_marker_b2d3229afea942459c34e42cac1fac1c.bindPopup(popup_e6a96bfaf8a84b25a9168560d0eed446)
+        ;
+
+        
+    
+    
+            var circle_marker_144f5cd81d7342a9a2c4f04af8d7db76 = L.circleMarker(
+                [-2.57, 147.28],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_618230ad4ff2477fbc97899295cefb0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_614c2d1516a746c3963c5dda42fc352f = $(`<div id="html_614c2d1516a746c3963c5dda42fc352f" style="width: 100.0%; height: 100.0%;">Elevation: 254.0m Name: Baluan Type: Stratovolcano</div>`)[0];
+            popup_618230ad4ff2477fbc97899295cefb0a.setContent(html_614c2d1516a746c3963c5dda42fc352f);
+        
+
+        circle_marker_144f5cd81d7342a9a2c4f04af8d7db76.bindPopup(popup_618230ad4ff2477fbc97899295cefb0a)
+        ;
+
+        
+    
+    
+            var circle_marker_f7f09879c68643a4be7b9255e46a4d2e = L.circleMarker(
+                [55.32, -131.05],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_c348ea63b0074442b4959231c683c803 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f87de5c504d45f0b453082b5ac61b4d = $(`<div id="html_7f87de5c504d45f0b453082b5ac61b4d" style="width: 100.0%; height: 100.0%;">Elevation: 500.0m Name: Behm Canal-Rudyerd Bay Type: Cinder cone</div>`)[0];
+            popup_c348ea63b0074442b4959231c683c803.setContent(html_7f87de5c504d45f0b453082b5ac61b4d);
+        
+
+        circle_marker_f7f09879c68643a4be7b9255e46a4d2e.bindPopup(popup_c348ea63b0074442b4959231c683c803)
+        ;
+
+        
+    
+    
+            var circle_marker_108a78df710f42c8b9834723c7cf30e7 = L.circleMarker(
+                [44.285, -121.841],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_917c96e3e91845a381c4adddf7226055 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72c91cdcc1164e7bbcc445cd01a9cc26 = $(`<div id="html_72c91cdcc1164e7bbcc445cd01a9cc26" style="width: 100.0%; height: 100.0%;">Elevation: 2095.0m Name: Belknap Type: Shield volcano</div>`)[0];
+            popup_917c96e3e91845a381c4adddf7226055.setContent(html_72c91cdcc1164e7bbcc445cd01a9cc26);
+        
+
+        circle_marker_108a78df710f42c8b9834723c7cf30e7.bindPopup(popup_917c96e3e91845a381c4adddf7226055)
+        ;
+
+        
+    
+    
+            var circle_marker_524b7844028f4902ba4c522edfb3322b = L.circleMarker(
+                [40.955, -121.365],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_c23beb73fb8e4fa5b57cb1b36bac5150 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3c30f7576924b09a2dd1b12843c1bda = $(`<div id="html_d3c30f7576924b09a2dd1b12843c1bda" style="width: 100.0%; height: 100.0%;">Elevation: 1259.0m Name: Big Cave Type: Shield volcano</div>`)[0];
+            popup_c23beb73fb8e4fa5b57cb1b36bac5150.setContent(html_d3c30f7576924b09a2dd1b12843c1bda);
+        
+
+        circle_marker_524b7844028f4902ba4c522edfb3322b.bindPopup(popup_c23beb73fb8e4fa5b57cb1b36bac5150)
+        ;
+
+        
+    
+    
+            var circle_marker_ab013c126533468e8fabf2254611f877 = L.circleMarker(
+                [56.53, -158.8],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_21415848f0724afda2d5879bcc365ab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17778fb93074bc98bcc5b979c50f63c = $(`<div id="html_d17778fb93074bc98bcc5b979c50f63c" style="width: 100.0%; height: 100.0%;">Elevation: 1032.0m Name: Black Peak Type: Stratovolcano</div>`)[0];
+            popup_21415848f0724afda2d5879bcc365ab7.setContent(html_d17778fb93074bc98bcc5b979c50f63c);
+        
+
+        circle_marker_ab013c126533468e8fabf2254611f877.bindPopup(popup_21415848f0724afda2d5879bcc365ab7)
+        ;
+
+        
+    
+    
+            var circle_marker_d0ee16dbc59e4dd3a720fccce179caf5 = L.circleMarker(
+                [38.97, -112.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_c5b3866e2afd4c83ad707e2ece3db5a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a3b71ff50714a26abb62b61ff43d26a = $(`<div id="html_0a3b71ff50714a26abb62b61ff43d26a" style="width: 100.0%; height: 100.0%;">Elevation: 1800.0m Name: Black Rock Desert Type: Volcanic field</div>`)[0];
+            popup_c5b3866e2afd4c83ad707e2ece3db5a5.setContent(html_0a3b71ff50714a26abb62b61ff43d26a);
+        
+
+        circle_marker_d0ee16dbc59e4dd3a720fccce179caf5.bindPopup(popup_c5b3866e2afd4c83ad707e2ece3db5a5)
+        ;
+
+        
+    
+    
+            var circle_marker_b689c16e65704f31b58ef25b19d85da1 = L.circleMarker(
+                [44.42, -121.77],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_3c1dc76f4a6d46e5b6c08984aa70c527 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3991f08102534b109df34b7a00d6301c = $(`<div id="html_3991f08102534b109df34b7a00d6301c" style="width: 100.0%; height: 100.0%;">Elevation: 1230.0m Name: Blue Lake Crater Type: Maar</div>`)[0];
+            popup_3c1dc76f4a6d46e5b6c08984aa70c527.setContent(html_3991f08102534b109df34b7a00d6301c);
+        
+
+        circle_marker_b689c16e65704f31b58ef25b19d85da1.bindPopup(popup_3c1dc76f4a6d46e5b6c08984aa70c527)
+        ;
+
+        
+    
+    
+            var circle_marker_f051d876508e4414a78209586377a3bb = L.circleMarker(
+                [51.9, -177.43],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_5e0d83cdfd71416abb733f25de4edda2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31ccd5bbf8804105a6efff59fedf8cd2 = $(`<div id="html_31ccd5bbf8804105a6efff59fedf8cd2" style="width: 100.0%; height: 100.0%;">Elevation: 738.0m Name: Bobrof Type: Stratovolcano</div>`)[0];
+            popup_5e0d83cdfd71416abb733f25de4edda2.setContent(html_31ccd5bbf8804105a6efff59fedf8cd2);
+        
+
+        circle_marker_f051d876508e4414a78209586377a3bb.bindPopup(popup_5e0d83cdfd71416abb733f25de4edda2)
+        ;
+
+        
+    
+    
+            var circle_marker_4a271baa38ea4ddd9152617459551a5e = L.circleMarker(
+                [53.93, -168.03],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_7874782ac3854626a03be9da3209f84c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6897bc58d7be4005b83f9b045ba43ac9 = $(`<div id="html_6897bc58d7be4005b83f9b045ba43ac9" style="width: 100.0%; height: 100.0%;">Elevation: 101.0m Name: Bogoslof Type: Submarine volcano</div>`)[0];
+            popup_7874782ac3854626a03be9da3209f84c.setContent(html_6897bc58d7be4005b83f9b045ba43ac9);
+        
+
+        circle_marker_4a271baa38ea4ddd9152617459551a5e.bindPopup(popup_7874782ac3854626a03be9da3209f84c)
+        ;
+
+        
+    
+    
+            var circle_marker_68f718cd8e534a19b146edc7eb71eaad = L.circleMarker(
+                [61.38, -141.75],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d778ed1daedd4777ae4c5ff50bbfa245 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4c123f80d884475a3fd7bea1b11dac6 = $(`<div id="html_a4c123f80d884475a3fd7bea1b11dac6" style="width: 100.0%; height: 100.0%;">Elevation: 5005.0m Name: Bona-Churchill Type: Stratovolcano</div>`)[0];
+            popup_d778ed1daedd4777ae4c5ff50bbfa245.setContent(html_a4c123f80d884475a3fd7bea1b11dac6);
+        
+
+        circle_marker_68f718cd8e534a19b146edc7eb71eaad.bindPopup(popup_d778ed1daedd4777ae4c5ff50bbfa245)
+        ;
+
+        
+    
+    
+            var circle_marker_a22e5fa501a949ebaf6d6cc97295a1c0 = L.circleMarker(
+                [41.178, -121.443],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d59d93ae916640dc8bbdd422eb1b1fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eb429181b914469a378a48a1d92d1f4 = $(`<div id="html_0eb429181b914469a378a48a1d92d1f4" style="width: 100.0%; height: 100.0%;">Elevation: 1174.0m Name: Brushy Butte Type: Shield volcano</div>`)[0];
+            popup_d59d93ae916640dc8bbdd422eb1b1fe7.setContent(html_0eb429181b914469a378a48a1d92d1f4);
+        
+
+        circle_marker_a22e5fa501a949ebaf6d6cc97295a1c0.bindPopup(popup_d59d93ae916640dc8bbdd422eb1b1fe7)
+        ;
+
+        
+    
+    
+            var circle_marker_e1409c960aa64205b528a02c7b2910e1 = L.circleMarker(
+                [52.37, 175.98],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_233639d2bae644d783174cd17351211c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b855a91055ae457ab34901c39d0b1001 = $(`<div id="html_b855a91055ae457ab34901c39d0b1001" style="width: 100.0%; height: 100.0%;">Elevation: 656.0m Name: Buldir Type: Stratovolcano</div>`)[0];
+            popup_233639d2bae644d783174cd17351211c.setContent(html_b855a91055ae457ab34901c39d0b1001);
+        
+
+        circle_marker_e1409c960aa64205b528a02c7b2910e1.bindPopup(popup_233639d2bae644d783174cd17351211c)
+        ;
+
+        
+    
+    
+            var circle_marker_1db5936e0edf4eb7a86ce27c6fb8445d = L.circleMarker(
+                [64.07, -148.42],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_50c542dc35cd49718806a931c3517879 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f43a801ca9b403d8e9c58b77991cb08 = $(`<div id="html_0f43a801ca9b403d8e9c58b77991cb08" style="width: 100.0%; height: 100.0%;">Elevation: 830.0m Name: Buzzard Creek Type: Tuff rings</div>`)[0];
+            popup_50c542dc35cd49718806a931c3517879.setContent(html_0f43a801ca9b403d8e9c58b77991cb08);
+        
+
+        circle_marker_1db5936e0edf4eb7a86ce27c6fb8445d.bindPopup(popup_50c542dc35cd49718806a931c3517879)
+        ;
+
+        
+    
+    
+            var circle_marker_57b8d69dd4404cb3adaceaacbe4259b1 = L.circleMarker(
+                [52.9, -170.05],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_3ee785db2606423a962bbed40c53cf75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_101411e87dfa42bab87b4f9135457240 = $(`<div id="html_101411e87dfa42bab87b4f9135457240" style="width: 100.0%; height: 100.0%;">Elevation: 1620.0m Name: Carlisle Type: Stratovolcano</div>`)[0];
+            popup_3ee785db2606423a962bbed40c53cf75.setContent(html_101411e87dfa42bab87b4f9135457240);
+        
+
+        circle_marker_57b8d69dd4404cb3adaceaacbe4259b1.bindPopup(popup_3ee785db2606423a962bbed40c53cf75)
+        ;
+
+        
+    
+    
+            var circle_marker_ee1c5ef45fd140d8894ee5a94271ffd5 = L.circleMarker(
+                [33.78, -105.93],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b25a0a9d26834efeaa39f5ee6d4a3843 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_760a3f95112a4970b805e95538a46825 = $(`<div id="html_760a3f95112a4970b805e95538a46825" style="width: 100.0%; height: 100.0%;">Elevation: 1731.0m Name: Carrizozo Type: Cinder cone</div>`)[0];
+            popup_b25a0a9d26834efeaa39f5ee6d4a3843.setContent(html_760a3f95112a4970b805e95538a46825);
+        
+
+        circle_marker_ee1c5ef45fd140d8894ee5a94271ffd5.bindPopup(popup_b25a0a9d26834efeaa39f5ee6d4a3843)
+        ;
+
+        
+    
+    
+            var circle_marker_918dbc9573064ef79e625c71d96f587e = L.circleMarker(
+                [52.57, -171.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_9856b85e34994f4ca5589689e6e14af8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0d07f7df9d5477e82224bd42bbfbdd3 = $(`<div id="html_d0d07f7df9d5477e82224bd42bbfbdd3" style="width: 100.0%; height: 100.0%;">Elevation: 1142.0m Name: Chagulak Type: Stratovolcano</div>`)[0];
+            popup_9856b85e34994f4ca5589689e6e14af8.setContent(html_d0d07f7df9d5477e82224bd42bbfbdd3);
+        
+
+        circle_marker_918dbc9573064ef79e625c71d96f587e.bindPopup(popup_9856b85e34994f4ca5589689e6e14af8)
+        ;
+
+        
+    
+    
+            var circle_marker_5f0fda53e74f4daf93bdf52fb26f5bdd = L.circleMarker(
+                [57.13, -157.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_efff08d723d9424c891a889972ff8d89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12924d4e70ea431ab74c8f7664ed3731 = $(`<div id="html_12924d4e70ea431ab74c8f7664ed3731" style="width: 100.0%; height: 100.0%;">Elevation: 2075.0m Name: Chiginagak Type: Stratovolcano</div>`)[0];
+            popup_efff08d723d9424c891a889972ff8d89.setContent(html_12924d4e70ea431ab74c8f7664ed3731);
+        
+
+        circle_marker_5f0fda53e74f4daf93bdf52fb26f5bdd.bindPopup(popup_efff08d723d9424c891a889972ff8d89)
+        ;
+
+        
+    
+    
+            var circle_marker_8fc0f0ef641e4ecc9458ebe9740086a7 = L.circleMarker(
+                [43.241, -122.108],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4502a6ae09524eb9b75c718e65edcfdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aef8f0f2fa0f403595d7a8a65a6b52b9 = $(`<div id="html_aef8f0f2fa0f403595d7a8a65a6b52b9" style="width: 100.0%; height: 100.0%;">Elevation: 1956.0m Name: Cinnamon Butte Type: Cinder cone</div>`)[0];
+            popup_4502a6ae09524eb9b75c718e65edcfdb.setContent(html_aef8f0f2fa0f403595d7a8a65a6b52b9);
+        
+
+        circle_marker_8fc0f0ef641e4ecc9458ebe9740086a7.bindPopup(popup_4502a6ae09524eb9b75c718e65edcfdb)
+        ;
+
+        
+    
+    
+            var circle_marker_828e39ff955246a1ad96ccfe4ae69f63 = L.circleMarker(
+                [38.97, -122.77],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d8a2bd95702c4de5a87416aa849dd2ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4ea7fdc40a84e8d956180dd3017923d = $(`<div id="html_e4ea7fdc40a84e8d956180dd3017923d" style="width: 100.0%; height: 100.0%;">Elevation: 1439.0m Name: Clear Lake Type: Volcanic field</div>`)[0];
+            popup_d8a2bd95702c4de5a87416aa849dd2ef.setContent(html_e4ea7fdc40a84e8d956180dd3017923d);
+        
+
+        circle_marker_828e39ff955246a1ad96ccfe4ae69f63.bindPopup(popup_d8a2bd95702c4de5a87416aa849dd2ef)
+        ;
+
+        
+    
+    
+            var circle_marker_d36cc9484c3048f0893b7718a90f337a = L.circleMarker(
+                [52.82, -169.95],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_8ae62614c5dc489dbf041c6952c948d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_338e677282b74115b90f0356d88d8efb = $(`<div id="html_338e677282b74115b90f0356d88d8efb" style="width: 100.0%; height: 100.0%;">Elevation: 1730.0m Name: Cleveland Type: Stratovolcano</div>`)[0];
+            popup_8ae62614c5dc489dbf041c6952c948d0.setContent(html_338e677282b74115b90f0356d88d8efb);
+        
+
+        circle_marker_d36cc9484c3048f0893b7718a90f337a.bindPopup(popup_8ae62614c5dc489dbf041c6952c948d0)
+        ;
+
+        
+    
+    
+            var circle_marker_23ab8123af6a4f2c86d9362b2f1dfccf = L.circleMarker(
+                [36.03, -117.82],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_2b179407cf4e40249c41fcb0a1cbe66f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f31388cb72a479aa71a4333a8e4342c = $(`<div id="html_0f31388cb72a479aa71a4333a8e4342c" style="width: 100.0%; height: 100.0%;">Elevation: 2400.0m Name: Coso Volc Field Type: Lava dome</div>`)[0];
+            popup_2b179407cf4e40249c41fcb0a1cbe66f.setContent(html_0f31388cb72a479aa71a4333a8e4342c);
+        
+
+        circle_marker_23ab8123af6a4f2c86d9362b2f1dfccf.bindPopup(popup_2b179407cf4e40249c41fcb0a1cbe66f)
+        ;
+
+        
+    
+    
+            var circle_marker_c36d8f1d17ec4ef28faac836fa1b5117 = L.circleMarker(
+                [42.93, -122.12],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_081c68fbb0bf4e7cae0a6d9cf942efb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35194281fcf1462aa704f568f6e9eb3f = $(`<div id="html_35194281fcf1462aa704f568f6e9eb3f" style="width: 100.0%; height: 100.0%;">Elevation: 2487.0m Name: Crater Lake Type: Caldera</div>`)[0];
+            popup_081c68fbb0bf4e7cae0a6d9cf942efb0.setContent(html_35194281fcf1462aa704f568f6e9eb3f);
+        
+
+        circle_marker_c36d8f1d17ec4ef28faac836fa1b5117.bindPopup(popup_081c68fbb0bf4e7cae0a6d9cf942efb0)
+        ;
+
+        
+    
+    
+            var circle_marker_94ef8a8587024bc396c6d06a2b3d346c = L.circleMarker(
+                [43.42, -113.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d3c16f67bb1a4d6ca9a0d22b1e22931a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4328aa3aeda4c0aa42870623ce540d9 = $(`<div id="html_c4328aa3aeda4c0aa42870623ce540d9" style="width: 100.0%; height: 100.0%;">Elevation: 2005.0m Name: Craters of the Moon Type: Cinder cone</div>`)[0];
+            popup_d3c16f67bb1a4d6ca9a0d22b1e22931a.setContent(html_c4328aa3aeda4c0aa42870623ce540d9);
+        
+
+        circle_marker_94ef8a8587024bc396c6d06a2b3d346c.bindPopup(popup_d3c16f67bb1a4d6ca9a0d22b1e22931a)
+        ;
+
+        
+    
+    
+            var circle_marker_fb77ca0cd14c4dfb965ec47a0e6a1247 = L.circleMarker(
+                [55.62, -161.22],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_94bfb149178f4a4394d16910edd9da78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a81e3b678fdc4283b8833e360cf87046 = $(`<div id="html_a81e3b678fdc4283b8833e360cf87046" style="width: 100.0%; height: 100.0%;">Elevation: 1354.0m Name: Dana Type: Stratovolcano</div>`)[0];
+            popup_94bfb149178f4a4394d16910edd9da78.setContent(html_a81e3b678fdc4283b8833e360cf87046);
+        
+
+        circle_marker_fb77ca0cd14c4dfb965ec47a0e6a1247.bindPopup(popup_94bfb149178f4a4394d16910edd9da78)
+        ;
+
+        
+    
+    
+            var circle_marker_0d2b784ff6cc44f3a0a39d46240b7459 = L.circleMarker(
+                [51.97, 178.33],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d746192b51ca4ab6bb3acadb96ec868c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e98b8960279c4ab09d16a79647ec2364 = $(`<div id="html_e98b8960279c4ab09d16a79647ec2364" style="width: 100.0%; height: 100.0%;">Elevation: 328.0m Name: Davidof Type: Stratovolcano</div>`)[0];
+            popup_d746192b51ca4ab6bb3acadb96ec868c.setContent(html_e98b8960279c4ab09d16a79647ec2364);
+        
+
+        circle_marker_0d2b784ff6cc44f3a0a39d46240b7459.bindPopup(popup_d746192b51ca4ab6bb3acadb96ec868c)
+        ;
+
+        
+    
+    
+            var circle_marker_5e389e2a67f048499d460a1ce05198d8 = L.circleMarker(
+                [43.57, -121.82],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_ff84f7e527ce4c93b98dcb7b506386a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31ad380a65f642999e7d90e14eb5b415 = $(`<div id="html_31ad380a65f642999e7d90e14eb5b415" style="width: 100.0%; height: 100.0%;">Elevation: 2163.0m Name: Davis Lake Type: Volcanic field</div>`)[0];
+            popup_ff84f7e527ce4c93b98dcb7b506386a1.setContent(html_31ad380a65f642999e7d90e14eb5b415);
+        
+
+        circle_marker_5e389e2a67f048499d460a1ce05198d8.bindPopup(popup_ff84f7e527ce4c93b98dcb7b506386a1)
+        ;
+
+        
+    
+    
+            var circle_marker_b4042daa6e9345f291a07739040d6920 = L.circleMarker(
+                [58.42, -154.45],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_1d6c6dccc8c74f4db59a606368dc6513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8afd19b4dde646dbbb160ca7d4ca6102 = $(`<div id="html_8afd19b4dde646dbbb160ca7d4ca6102" style="width: 100.0%; height: 100.0%;">Elevation: 2318.0m Name: Denison Type: Stratovolcano</div>`)[0];
+            popup_1d6c6dccc8c74f4db59a606368dc6513.setContent(html_8afd19b4dde646dbbb160ca7d4ca6102);
+        
+
+        circle_marker_b4042daa6e9345f291a07739040d6920.bindPopup(popup_1d6c6dccc8c74f4db59a606368dc6513)
+        ;
+
+        
+    
+    
+            var circle_marker_68c0c2ec0b55427a8a1767e282493654 = L.circleMarker(
+                [43.512, -120.861],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0e9ab116e6db429895b3823eba323def = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aa74c98c4a7425c93c5f07e4da60eec = $(`<div id="html_0aa74c98c4a7425c93c5f07e4da60eec" style="width: 100.0%; height: 100.0%;">Elevation: 1698.0m Name: Devils Garden Type: Volcanic field</div>`)[0];
+            popup_0e9ab116e6db429895b3823eba323def.setContent(html_0aa74c98c4a7425c93c5f07e4da60eec);
+        
+
+        circle_marker_68c0c2ec0b55427a8a1767e282493654.bindPopup(popup_0e9ab116e6db429895b3823eba323def)
+        ;
+
+        
+    
+    
+            var circle_marker_f79ada98e408472d80e077da93b2c273 = L.circleMarker(
+                [43.1, -118.75],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_3b0580eeb89b497eb76fd4e3f191e339 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e3194dbb35b409ab185d836d5266d77 = $(`<div id="html_2e3194dbb35b409ab185d836d5266d77" style="width: 100.0%; height: 100.0%;">Elevation: 1435.0m Name: Diamond Craters Type: Volcanic field</div>`)[0];
+            popup_3b0580eeb89b497eb76fd4e3f191e339.setContent(html_2e3194dbb35b409ab185d836d5266d77);
+        
+
+        circle_marker_f79ada98e408472d80e077da93b2c273.bindPopup(popup_3b0580eeb89b497eb76fd4e3f191e339)
+        ;
+
+        
+    
+    
+            var circle_marker_e075d2e91e74411686728365a84fd64a = L.circleMarker(
+                [39.65, -107.03],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_96bc27c129c9496fabd41c92c460fb58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74b3b285c66245d281ab9ec1a84668b2 = $(`<div id="html_74b3b285c66245d281ab9ec1a84668b2" style="width: 100.0%; height: 100.0%;">Elevation: 2230.0m Name: Dotsero Type: Maar</div>`)[0];
+            popup_96bc27c129c9496fabd41c92c460fb58.setContent(html_74b3b285c66245d281ab9ec1a84668b2);
+        
+
+        circle_marker_e075d2e91e74411686728365a84fd64a.bindPopup(popup_96bc27c129c9496fabd41c92c460fb58)
+        ;
+
+        
+    
+    
+            var circle_marker_e54feb4c80d74324a419fdefa1405552 = L.circleMarker(
+                [58.87, -153.55],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_ceb36b3459564b438716f5ff2e0992c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_190712d63760470da4a4eb28baf5e532 = $(`<div id="html_190712d63760470da4a4eb28baf5e532" style="width: 100.0%; height: 100.0%;">Elevation: 2140.0m Name: Douglas Type: Stratovolcano</div>`)[0];
+            popup_ceb36b3459564b438716f5ff2e0992c9.setContent(html_190712d63760470da4a4eb28baf5e532);
+        
+
+        circle_marker_e54feb4c80d74324a419fdefa1405552.bindPopup(popup_ceb36b3459564b438716f5ff2e0992c9)
+        ;
+
+        
+    
+    
+            var circle_marker_06bbf1450003479bb7428733f28c7475 = L.circleMarker(
+                [56.5, -133.1],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_49612fe4048042f9b6e86ba8f63ed065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71503ac3b6b14945a7921142cf636bab = $(`<div id="html_71503ac3b6b14945a7921142cf636bab" style="width: 100.0%; height: 100.0%;">Elevation: 15.0m Name: Duncan Canal Type: Unknown</div>`)[0];
+            popup_49612fe4048042f9b6e86ba8f63ed065.setContent(html_71503ac3b6b14945a7921142cf636bab);
+        
+
+        circle_marker_06bbf1450003479bb7428733f28c7475.bindPopup(popup_49612fe4048042f9b6e86ba8f63ed065)
+        ;
+
+        
+    
+    
+            var circle_marker_5a67a04f627d49cf9d3a9c15c8f2e248 = L.circleMarker(
+                [55.18, -162.27],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_24cfa7762d66447d9e480f93de445f38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd734f0c663648f0a111f24d5ce1e942 = $(`<div id="html_bd734f0c663648f0a111f24d5ce1e942" style="width: 100.0%; height: 100.0%;">Elevation: 1506.0m Name: Dutton Type: Stratovolcano</div>`)[0];
+            popup_24cfa7762d66447d9e480f93de445f38.setContent(html_bd734f0c663648f0a111f24d5ce1e942);
+        
+
+        circle_marker_5a67a04f627d49cf9d3a9c15c8f2e248.bindPopup(popup_24cfa7762d66447d9e480f93de445f38)
+        ;
+
+        
+    
+    
+            var circle_marker_81d8562429394a92b1858fbbdd9d07f6 = L.circleMarker(
+                [40.63, -120.83],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_2c66fc7c5565460092ec3d3047ecbd6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae458815b5f14ce1aa40995ad1ba326a = $(`<div id="html_ae458815b5f14ce1aa40995ad1ba326a" style="width: 100.0%; height: 100.0%;">Elevation: 1652.0m Name: Eagle Lake Field Type: Fissure vent</div>`)[0];
+            popup_2c66fc7c5565460092ec3d3047ecbd6a.setContent(html_ae458815b5f14ce1aa40995ad1ba326a);
+        
+
+        circle_marker_81d8562429394a92b1858fbbdd9d07f6.bindPopup(popup_2c66fc7c5565460092ec3d3047ecbd6a)
+        ;
+
+        
+    
+    
+            var circle_marker_136656bb6e4f4a47ac6850c2c7e4daf8 = L.circleMarker(
+                [57.05, -135.75],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_f4d022e900064fcb9cecd4968bc69479 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df7a9fe2912146328bcac485dc46ea05 = $(`<div id="html_df7a9fe2912146328bcac485dc46ea05" style="width: 100.0%; height: 100.0%;">Elevation: 976.0m Name: Edgecumbe Type: Stratovolcano</div>`)[0];
+            popup_f4d022e900064fcb9cecd4968bc69479.setContent(html_df7a9fe2912146328bcac485dc46ea05);
+        
+
+        circle_marker_136656bb6e4f4a47ac6850c2c7e4daf8.bindPopup(popup_f4d022e900064fcb9cecd4968bc69479)
+        ;
+
+        
+    
+    
+            var circle_marker_f85ef9bc93e64d1a92162c618c118019 = L.circleMarker(
+                [55.33, -162.07],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_c458147f01d74e84a0d80436ba62f6e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6f6c30aa34f440e87b4b4a3aa33bf6e = $(`<div id="html_e6f6c30aa34f440e87b4b4a3aa33bf6e" style="width: 100.0%; height: 100.0%;">Elevation: 1465.0m Name: Emmons Lake Type: Caldera</div>`)[0];
+            popup_c458147f01d74e84a0d80436ba62f6e2.setContent(html_e6f6c30aa34f440e87b4b4a3aa33bf6e);
+        
+
+        circle_marker_f85ef9bc93e64d1a92162c618c118019.bindPopup(popup_c458147f01d74e84a0d80436ba62f6e2)
+        ;
+
+        
+    
+    
+            var circle_marker_e73f18f1b58b49bd91caf47d742c0a19 = L.circleMarker(
+                [15.0, 145.25],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_3255df09fb4a4fcfb6f175bd229bd7f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e503f299deb84797b2ad913efd9b650c = $(`<div id="html_e503f299deb84797b2ad913efd9b650c" style="width: 100.0%; height: 100.0%;">Elevation: -43.0m Name: Esmeralda Bank Type: Submarine volcano</div>`)[0];
+            popup_3255df09fb4a4fcfb6f175bd229bd7f3.setContent(html_e503f299deb84797b2ad913efd9b650c);
+        
+
+        circle_marker_e73f18f1b58b49bd91caf47d742c0a19.bindPopup(popup_3255df09fb4a4fcfb6f175bd229bd7f3)
+        ;
+
+        
+    
+    
+            var circle_marker_8b2c89c3f2bf41fb8b8c6d2d4b0fb132 = L.circleMarker(
+                [66.35, -164.33],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_33d1136e18bf4cd48c0332b4c493dc1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e87e3f0fa88434cb8d4a33d748056ee = $(`<div id="html_8e87e3f0fa88434cb8d4a33d748056ee" style="width: 100.0%; height: 100.0%;">Elevation: 243.0m Name: Espenberg Type: Volcanic field</div>`)[0];
+            popup_33d1136e18bf4cd48c0332b4c493dc1c.setContent(html_8e87e3f0fa88434cb8d4a33d748056ee);
+        
+
+        circle_marker_8b2c89c3f2bf41fb8b8c6d2d4b0fb132.bindPopup(popup_33d1136e18bf4cd48c0332b4c493dc1c)
+        ;
+
+        
+    
+    
+            var circle_marker_421c720217634b5a83dbbb8d9930a36e = L.circleMarker(
+                [20.53, 144.9],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_7bdd86cb0a51442cb2e6905a8b61adbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a57fc130e01f43949f08aafe5d155f4c = $(`<div id="html_a57fc130e01f43949f08aafe5d155f4c" style="width: 100.0%; height: 100.0%;">Elevation: 360.0m Name: Farallon de Pajaros Type: Stratovolcano</div>`)[0];
+            popup_7bdd86cb0a51442cb2e6905a8b61adbd.setContent(html_a57fc130e01f43949f08aafe5d155f4c);
+        
+
+        circle_marker_421c720217634b5a83dbbb8d9930a36e.bindPopup(popup_7bdd86cb0a51442cb2e6905a8b61adbd)
+        ;
+
+        
+    
+    
+            var circle_marker_6fd9b9741807494bbdc6ce776d8c297d = L.circleMarker(
+                [54.67, -164.35],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_7e0fc02b11e648b1a0adb06d0a0b1c6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45d706dbb7a14d13af9470188add32c2 = $(`<div id="html_45d706dbb7a14d13af9470188add32c2" style="width: 100.0%; height: 100.0%;">Elevation: 1094.0m Name: Fisher Type: Stratovolcano</div>`)[0];
+            popup_7e0fc02b11e648b1a0adb06d0a0b1c6e.setContent(html_45d706dbb7a14d13af9470188add32c2);
+        
+
+        circle_marker_6fd9b9741807494bbdc6ce776d8c297d.bindPopup(popup_7e0fc02b11e648b1a0adb06d0a0b1c6e)
+        ;
+
+        
+    
+    
+            var circle_marker_f0ff24c5089d4b6699a74cac547c14ac = L.circleMarker(
+                [13.4, 143.917],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_f82d76a006ec4672bf5798ea939c5cf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53ccac473a914e1b9b27e6b93ee3ce59 = $(`<div id="html_53ccac473a914e1b9b27e6b93ee3ce59" style="width: 100.0%; height: 100.0%;">Elevation: nanm Name: Forecast Seamount Type: Submarine volcano</div>`)[0];
+            popup_f82d76a006ec4672bf5798ea939c5cf1.setContent(html_53ccac473a914e1b9b27e6b93ee3ce59);
+        
+
+        circle_marker_f0ff24c5089d4b6699a74cac547c14ac.bindPopup(popup_f82d76a006ec4672bf5798ea939c5cf1)
+        ;
+
+        
+    
+    
+            var circle_marker_f14c149494f149b998910ba68e422698 = L.circleMarker(
+                [43.361, -120.669],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_3840c8a76a9149959e859528819f1cca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d6c404e3bda475d9eef3e104722a1d3 = $(`<div id="html_6d6c404e3bda475d9eef3e104722a1d3" style="width: 100.0%; height: 100.0%;">Elevation: 1501.0m Name: Four Craters Lava Field Type: Volcanic field</div>`)[0];
+            popup_3840c8a76a9149959e859528819f1cca.setContent(html_6d6c404e3bda475d9eef3e104722a1d3);
+        
+
+        circle_marker_f14c149494f149b998910ba68e422698.bindPopup(popup_3840c8a76a9149959e859528819f1cca)
+        ;
+
+        
+    
+    
+            var circle_marker_bef961c5737041778a686bbbd5c9eb43 = L.circleMarker(
+                [58.77, -153.68],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_eb788ae117044440888fe36796d0662b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6bd51aa65ac41cf9c465748645399c0 = $(`<div id="html_e6bd51aa65ac41cf9c465748645399c0" style="width: 100.0%; height: 100.0%;">Elevation: 2104.0m Name: Fourpeaked Type: Stratovolcano</div>`)[0];
+            popup_eb788ae117044440888fe36796d0662b.setContent(html_e6bd51aa65ac41cf9c465748645399c0);
+        
+
+        circle_marker_bef961c5737041778a686bbbd5c9eb43.bindPopup(popup_eb788ae117044440888fe36796d0662b)
+        ;
+
+        
+    
+    
+            var circle_marker_b6589d8930914b0099a7abf87e8384b0 = L.circleMarker(
+                [55.07, -162.82],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b46a11ccbff34814b7c26f028a0e15ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1377339f0bc45de800ba7a48c20ae36 = $(`<div id="html_b1377339f0bc45de800ba7a48c20ae36" style="width: 100.0%; height: 100.0%;">Elevation: 1920.0m Name: Frosty Type: Stratovolcano</div>`)[0];
+            popup_b46a11ccbff34814b7c26f028a0e15ff.setContent(html_b1377339f0bc45de800ba7a48c20ae36);
+        
+
+        circle_marker_b6589d8930914b0099a7abf87e8384b0.bindPopup(popup_b46a11ccbff34814b7c26f028a0e15ff)
+        ;
+
+        
+    
+    
+            var circle_marker_a15024ae484545f6bbf059217f6aaa69 = L.circleMarker(
+                [51.78, -178.8],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_29f8d78129d4490fb6c2d989038972c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0793043dfa0c417d8d0c5335761c6542 = $(`<div id="html_0793043dfa0c417d8d0c5335761c6542" style="width: 100.0%; height: 100.0%;">Elevation: 1573.0m Name: Gareloi Type: Stratovolcano</div>`)[0];
+            popup_29f8d78129d4490fb6c2d989038972c7.setContent(html_0793043dfa0c417d8d0c5335761c6542);
+        
+
+        circle_marker_a15024ae484545f6bbf059217f6aaa69.bindPopup(popup_29f8d78129d4490fb6c2d989038972c7)
+        ;
+
+        
+    
+    
+            var circle_marker_acce8a01a7014573b2a159d9c18555ec = L.circleMarker(
+                [48.112, -121.113],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_8c9dc08457eb4093903c31b04617531e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c46ec64a3c154123b767e6ae129c6435 = $(`<div id="html_c46ec64a3c154123b767e6ae129c6435" style="width: 100.0%; height: 100.0%;">Elevation: 3213.0m Name: Glacier Peak Type: Stratovolcano</div>`)[0];
+            popup_8c9dc08457eb4093903c31b04617531e.setContent(html_c46ec64a3c154123b767e6ae129c6435);
+        
+
+        circle_marker_acce8a01a7014573b2a159d9c18555ec.bindPopup(popup_8c9dc08457eb4093903c31b04617531e)
+        ;
+
+        
+    
+    
+            var circle_marker_fb4e4c2f407b41c68ea029eb9ba1e30f = L.circleMarker(
+                [36.358, -118.32],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_a651effbc91448a2a3c3ee9f1cdbcfe6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aaafa84092c4e56baeda56d5e8c51b0 = $(`<div id="html_9aaafa84092c4e56baeda56d5e8c51b0" style="width: 100.0%; height: 100.0%;">Elevation: 2886.0m Name: Golden Trout Creek Type: Volcanic field</div>`)[0];
+            popup_a651effbc91448a2a3c3ee9f1cdbcfe6.setContent(html_9aaafa84092c4e56baeda56d5e8c51b0);
+        
+
+        circle_marker_fb4e4c2f407b41c68ea029eb9ba1e30f.bindPopup(popup_a651effbc91448a2a3c3ee9f1cdbcfe6)
+        ;
+
+        
+    
+    
+            var circle_marker_ffbc6b3dde9e49fb9d42cd3418b27b80 = L.circleMarker(
+                [62.13, -143.08],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_f87f44f528a149ecabca4c143030d6be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_812eeb533d8346c1a682684aaa73eca9 = $(`<div id="html_812eeb533d8346c1a682684aaa73eca9" style="width: 100.0%; height: 100.0%;">Elevation: 2755.0m Name: Gordon Type: Cinder cone</div>`)[0];
+            popup_f87f44f528a149ecabca4c143030d6be.setContent(html_812eeb533d8346c1a682684aaa73eca9);
+        
+
+        circle_marker_ffbc6b3dde9e49fb9d42cd3418b27b80.bindPopup(popup_f87f44f528a149ecabca4c143030d6be)
+        ;
+
+        
+    
+    
+            var circle_marker_7cb28895192546a8969377d812850911 = L.circleMarker(
+                [52.08, -176.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0c9fc96a4d7b4db3a23d9dcd9c0b0a01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d2f99777b6742e092a37af579ff487e = $(`<div id="html_2d2f99777b6742e092a37af579ff487e" style="width: 100.0%; height: 100.0%;">Elevation: 1740.0m Name: Great Sitkin Type: Stratovolcano</div>`)[0];
+            popup_0c9fc96a4d7b4db3a23d9dcd9c0b0a01.setContent(html_2d2f99777b6742e092a37af579ff487e);
+        
+
+        circle_marker_7cb28895192546a8969377d812850911.bindPopup(popup_0c9fc96a4d7b4db3a23d9dcd9c0b0a01)
+        ;
+
+        
+    
+    
+            var circle_marker_e09dcac2db994a2f8f1ac9d84eab5c47 = L.circleMarker(
+                [58.35, -155.1],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_9a11d288977f4ea7be4892de6b792f78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_036d15844fa2473fafaf6c3620b926ad = $(`<div id="html_036d15844fa2473fafaf6c3620b926ad" style="width: 100.0%; height: 100.0%;">Elevation: 2317.0m Name: Griggs Type: Stratovolcano</div>`)[0];
+            popup_9a11d288977f4ea7be4892de6b792f78.setContent(html_036d15844fa2473fafaf6c3620b926ad);
+        
+
+        circle_marker_e09dcac2db994a2f8f1ac9d84eab5c47.bindPopup(popup_9a11d288977f4ea7be4892de6b792f78)
+        ;
+
+        
+    
+    
+            var circle_marker_09f18c08be65446594e29a9b782fb99f = L.circleMarker(
+                [17.32, 145.85],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_83357dc4577b43d49f4164c71093342d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cab728d96cc411d900ea2dc9c9d3790 = $(`<div id="html_8cab728d96cc411d900ea2dc9c9d3790" style="width: 100.0%; height: 100.0%;">Elevation: 287.0m Name: Guguan Type: Stratovolcano</div>`)[0];
+            popup_83357dc4577b43d49f4164c71093342d.setContent(html_8cab728d96cc411d900ea2dc9c9d3790);
+        
+
+        circle_marker_09f18c08be65446594e29a9b782fb99f.bindPopup(popup_83357dc4577b43d49f4164c71093342d)
+        ;
+
+        
+    
+    
+            var circle_marker_6c93d0fe3a4844ee9ec65e827295f2ee = L.circleMarker(
+                [20.708, -156.25],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_cbad61beed5a4d848d1cdf76a0a4ea74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b004265e684641668d19b9215d9dad73 = $(`<div id="html_b004265e684641668d19b9215d9dad73" style="width: 100.0%; height: 100.0%;">Elevation: 3055.0m Name: Haleakala Type: Shield volcano</div>`)[0];
+            popup_cbad61beed5a4d848d1cdf76a0a4ea74.setContent(html_b004265e684641668d19b9215d9dad73);
+        
+
+        circle_marker_6c93d0fe3a4844ee9ec65e827295f2ee.bindPopup(popup_cbad61beed5a4d848d1cdf76a0a4ea74)
+        ;
+
+        
+    
+    
+            var circle_marker_b72bf16932884523ae7729aa138841a5 = L.circleMarker(
+                [61.62, -152.48],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0f56832f2cb04ebb8f877b853cf20a8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d547184c10534040a64b276941bd15bb = $(`<div id="html_d547184c10534040a64b276941bd15bb" style="width: 100.0%; height: 100.0%;">Elevation: 2788.0m Name: Hayes Type: Stratovolcano</div>`)[0];
+            popup_0f56832f2cb04ebb8f877b853cf20a8b.setContent(html_d547184c10534040a64b276941bd15bb);
+        
+
+        circle_marker_b72bf16932884523ae7729aa138841a5.bindPopup(popup_0f56832f2cb04ebb8f877b853cf20a8b)
+        ;
+
+        
+    
+    
+            var circle_marker_2eb58b550f2b4ce6ae2b334e06a720cf = L.circleMarker(
+                [43.5, -112.45],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_47d91f2d3db84d8cbbf5db511249c6a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05db80bdaecc46ec9b18234ca09724b8 = $(`<div id="html_05db80bdaecc46ec9b18234ca09724b8" style="width: 100.0%; height: 100.0%;">Elevation: 1631.0m Name: Hell's Half Acre Type: Shield volcano</div>`)[0];
+            popup_47d91f2d3db84d8cbbf5db511249c6a8.setContent(html_05db80bdaecc46ec9b18234ca09724b8);
+        
+
+        circle_marker_2eb58b550f2b4ce6ae2b334e06a720cf.bindPopup(popup_47d91f2d3db84d8cbbf5db511249c6a8)
+        ;
+
+        
+    
+    
+            var circle_marker_4838f9c050ce473da45141c19d66097f = L.circleMarker(
+                [52.75, -170.12],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d0beab137c99460d9d6debdb07e47650 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e4d9e6b65f847bdacc5d0e8b223be91 = $(`<div id="html_7e4d9e6b65f847bdacc5d0e8b223be91" style="width: 100.0%; height: 100.0%;">Elevation: 1290.0m Name: Herbert Type: Stratovolcano</div>`)[0];
+            popup_d0beab137c99460d9d6debdb07e47650.setContent(html_7e4d9e6b65f847bdacc5d0e8b223be91);
+        
+
+        circle_marker_4838f9c050ce473da45141c19d66097f.bindPopup(popup_d0beab137c99460d9d6debdb07e47650)
+        ;
+
+        
+    
+    
+            var circle_marker_8c35ab4cace74f309c781d1b2db0bdde = L.circleMarker(
+                [45.374, -121.694],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0218f12851c446f195120cabf7ec8467 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c33e700bab86402c90aab86e620aa108 = $(`<div id="html_c33e700bab86402c90aab86e620aa108" style="width: 100.0%; height: 100.0%;">Elevation: 3426.0m Name: Hood Type: Stratovolcano</div>`)[0];
+            popup_0218f12851c446f195120cabf7ec8467.setContent(html_c33e700bab86402c90aab86e620aa108);
+        
+
+        circle_marker_8c35ab4cace74f309c781d1b2db0bdde.bindPopup(popup_0218f12851c446f195120cabf7ec8467)
+        ;
+
+        
+    
+    
+            var circle_marker_33aeccb64e4b4786a1862011156d3dc5 = L.circleMarker(
+                [19.692, -155.87],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_3b72b2ca43c64c09b66778c89c6ee699 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1434b8094304d6682184e46516b8a0d = $(`<div id="html_f1434b8094304d6682184e46516b8a0d" style="width: 100.0%; height: 100.0%;">Elevation: 2523.0m Name: Hualalai Type: Shield volcano</div>`)[0];
+            popup_3b72b2ca43c64c09b66778c89c6ee699.setContent(html_f1434b8094304d6682184e46516b8a0d);
+        
+
+        circle_marker_33aeccb64e4b4786a1862011156d3dc5.bindPopup(popup_3b72b2ca43c64c09b66778c89c6ee699)
+        ;
+
+        
+    
+    
+            var circle_marker_43bead9599f9491a98907d699d7c5d26 = L.circleMarker(
+                [60.03, -153.08],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_9c89f124d2094190b003f9935b03610a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4eaf622081e4e02a9106cab0b1c6c46 = $(`<div id="html_e4eaf622081e4e02a9106cab0b1c6c46" style="width: 100.0%; height: 100.0%;">Elevation: 3053.0m Name: Iliamna Type: Stratovolcano</div>`)[0];
+            popup_9c89f124d2094190b003f9935b03610a.setContent(html_e4eaf622081e4e02a9106cab0b1c6c46);
+        
+
+        circle_marker_43bead9599f9491a98907d699d7c5d26.bindPopup(popup_9c89f124d2094190b003f9935b03610a)
+        ;
+
+        
+    
+    
+            var circle_marker_d6f01f9690974c199db0586eea96bcc6 = L.circleMarker(
+                [65.6, -163.92],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_a3b122a631f14e5cb48c28fd5d34f961 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25ddc2306b9244da804464e26ff4194f = $(`<div id="html_25ddc2306b9244da804464e26ff4194f" style="width: 100.0%; height: 100.0%;">Elevation: 610.0m Name: Imuruk Lake Type: Shield volcano</div>`)[0];
+            popup_a3b122a631f14e5cb48c28fd5d34f961.setContent(html_25ddc2306b9244da804464e26ff4194f);
+        
+
+        circle_marker_d6f01f9690974c199db0586eea96bcc6.bindPopup(popup_a3b122a631f14e5cb48c28fd5d34f961)
+        ;
+
+        
+    
+    
+            var circle_marker_f568d73c192a49a0a8ced99fe5436186 = L.circleMarker(
+                [45.93, -121.82],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_1fd9e44b0b364bbe8c8e8d215f6f2aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8057670074049709974520217333f2f = $(`<div id="html_c8057670074049709974520217333f2f" style="width: 100.0%; height: 100.0%;">Elevation: 1513.0m Name: Indian Heaven Type: Shield volcano</div>`)[0];
+            popup_1fd9e44b0b364bbe8c8e8d215f6f2aca.setContent(html_c8057670074049709974520217333f2f);
+        
+
+        circle_marker_f568d73c192a49a0a8ced99fe5436186.bindPopup(popup_1fd9e44b0b364bbe8c8e8d215f6f2aca)
+        ;
+
+        
+    
+    
+            var circle_marker_c3234fd92c654e329eaaee59fa1ea6e9 = L.circleMarker(
+                [61.43, -164.47],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_c855ba6fa1aa44938428807d0ad7b064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27f2f85c96e6406aa08f048d2f0c44c1 = $(`<div id="html_27f2f85c96e6406aa08f048d2f0c44c1" style="width: 100.0%; height: 100.0%;">Elevation: 190.0m Name: Ingakslugwat Hills Type: Cinder cone</div>`)[0];
+            popup_c855ba6fa1aa44938428807d0ad7b064.setContent(html_27f2f85c96e6406aa08f048d2f0c44c1);
+        
+
+        circle_marker_c3234fd92c654e329eaaee59fa1ea6e9.bindPopup(popup_c855ba6fa1aa44938428807d0ad7b064)
+        ;
+
+        
+    
+    
+            var circle_marker_cb2db685e17644a2b8495c117e57ed30 = L.circleMarker(
+                [37.692, -119.02],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_188381a214e64a08b3b1267b5420feb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_537d9d6a7d3243afa6d9fce8fa137014 = $(`<div id="html_537d9d6a7d3243afa6d9fce8fa137014" style="width: 100.0%; height: 100.0%;">Elevation: 2629.0m Name: Inyo Craters Type: Lava dome</div>`)[0];
+            popup_188381a214e64a08b3b1267b5420feb5.setContent(html_537d9d6a7d3243afa6d9fce8fa137014);
+        
+
+        circle_marker_cb2db685e17644a2b8495c117e57ed30.bindPopup(popup_188381a214e64a08b3b1267b5420feb5)
+        ;
+
+        
+    
+    
+            var circle_marker_68ef7c0e4a0f48b4a114710f6eabdccf = L.circleMarker(
+                [54.75, -163.73],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_5695e3c341c045eeb1205eccc898aa1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0e2923174364551903ff748fc6187cb = $(`<div id="html_e0e2923174364551903ff748fc6187cb" style="width: 100.0%; height: 100.0%;">Elevation: 2446.0m Name: Isanotski Type: Stratovolcano</div>`)[0];
+            popup_5695e3c341c045eeb1205eccc898aa1a.setContent(html_e0e2923174364551903ff748fc6187cb);
+        
+
+        circle_marker_68ef7c0e4a0f48b4a114710f6eabdccf.bindPopup(popup_5695e3c341c045eeb1205eccc898aa1a)
+        ;
+
+        
+    
+    
+            var circle_marker_8b884693fd2844b392105a8f13965452 = L.circleMarker(
+                [44.692, -121.8],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_9d765e5c536149958c6c57fc5b0f2e4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b659f51c533c45dcabbba2e14224f972 = $(`<div id="html_b659f51c533c45dcabbba2e14224f972" style="width: 100.0%; height: 100.0%;">Elevation: 3199.0m Name: Jefferson Type: Stratovolcano</div>`)[0];
+            popup_9d765e5c536149958c6c57fc5b0f2e4d.setContent(html_b659f51c533c45dcabbba2e14224f972);
+        
+
+        circle_marker_8b884693fd2844b392105a8f13965452.bindPopup(popup_9d765e5c536149958c6c57fc5b0f2e4d)
+        ;
+
+        
+    
+    
+            var circle_marker_0c9a52de70c44aa6a89810ce585af8be = L.circleMarker(
+                [43.03, -117.42],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_765739b6698c463896adcbcb26731380 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e22dbb9650694a29b2b3a0e97726429e = $(`<div id="html_e22dbb9650694a29b2b3a0e97726429e" style="width: 100.0%; height: 100.0%;">Elevation: 1473.0m Name: Jordan Craters Type: Volcanic field</div>`)[0];
+            popup_765739b6698c463896adcbcb26731380.setContent(html_e22dbb9650694a29b2b3a0e97726429e);
+        
+
+        circle_marker_0c9a52de70c44aa6a89810ce585af8be.bindPopup(popup_765739b6698c463896adcbcb26731380)
+        ;
+
+        
+    
+    
+            var circle_marker_76daf6e2f3bb4ae29387bd3fba45dedc = L.circleMarker(
+                [52.97, -169.72],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_038bd018d328488f8f657bbad086c5be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4850c3730a174876a933dcae70a13157 = $(`<div id="html_4850c3730a174876a933dcae70a13157" style="width: 100.0%; height: 100.0%;">Elevation: 893.0m Name: Kagamil Type: Stratovolcano</div>`)[0];
+            popup_038bd018d328488f8f657bbad086c5be.setContent(html_4850c3730a174876a933dcae70a13157);
+        
+
+        circle_marker_76daf6e2f3bb4ae29387bd3fba45dedc.bindPopup(popup_038bd018d328488f8f657bbad086c5be)
+        ;
+
+        
+    
+    
+            var circle_marker_5d7d6c3e3b3344c5b934a6cb6a8b0938 = L.circleMarker(
+                [58.62, -154.05],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_e25c4251cf1841d188cf08f8e6de3101 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6146c44d79a341b78c6fce09548f4ceb = $(`<div id="html_6146c44d79a341b78c6fce09548f4ceb" style="width: 100.0%; height: 100.0%;">Elevation: 901.0m Name: Kaguyak Type: Stratovolcano</div>`)[0];
+            popup_e25c4251cf1841d188cf08f8e6de3101.setContent(html_6146c44d79a341b78c6fce09548f4ceb);
+        
+
+        circle_marker_5d7d6c3e3b3344c5b934a6cb6a8b0938.bindPopup(popup_e25c4251cf1841d188cf08f8e6de3101)
+        ;
+
+        
+    
+    
+            var circle_marker_cb3709df33174822b6d5c53418ae5e9a = L.circleMarker(
+                [51.92, -177.17],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4a6b4df35e954e7bbd84e7da54e2198d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06fda3f1c5b64c16a8630cd65acd3e32 = $(`<div id="html_06fda3f1c5b64c16a8630cd65acd3e32" style="width: 100.0%; height: 100.0%;">Elevation: 1307.0m Name: Kanaga Type: Stratovolcano</div>`)[0];
+            popup_4a6b4df35e954e7bbd84e7da54e2198d.setContent(html_06fda3f1c5b64c16a8630cd65acd3e32);
+        
+
+        circle_marker_cb3709df33174822b6d5c53418ae5e9a.bindPopup(popup_4a6b4df35e954e7bbd84e7da54e2198d)
+        ;
+
+        
+    
+    
+            var circle_marker_5f951535f4444686a8ca03412c9c8f6c = L.circleMarker(
+                [52.18, -175.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_5433cbe19d2349b39f52ef59edbda920 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f026f91eacf348379045b110c76bfa08 = $(`<div id="html_f026f91eacf348379045b110c76bfa08" style="width: 100.0%; height: 100.0%;">Elevation: 314.0m Name: Kasatochi Type: Stratovolcano</div>`)[0];
+            popup_5433cbe19d2349b39f52ef59edbda920.setContent(html_f026f91eacf348379045b110c76bfa08);
+        
+
+        circle_marker_5f951535f4444686a8ca03412c9c8f6c.bindPopup(popup_5433cbe19d2349b39f52ef59edbda920)
+        ;
+
+        
+    
+    
+            var circle_marker_8e56a1ccef194296928e7def9e0d4e4d = L.circleMarker(
+                [58.27, -154.98],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_c8f2f427a6d7434b922a28c7831e172d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_714dba8b91e34c91b156e5a1d61706f3 = $(`<div id="html_714dba8b91e34c91b156e5a1d61706f3" style="width: 100.0%; height: 100.0%;">Elevation: 2047.0m Name: Katmai Type: Stratovolcano</div>`)[0];
+            popup_c8f2f427a6d7434b922a28c7831e172d.setContent(html_714dba8b91e34c91b156e5a1d61706f3);
+        
+
+        circle_marker_8e56a1ccef194296928e7def9e0d4e4d.bindPopup(popup_c8f2f427a6d7434b922a28c7831e172d)
+        ;
+
+        
+    
+    
+            var circle_marker_7974575103ac466bb4c5b23fb0a0c5f9 = L.circleMarker(
+                [57.38, -156.75],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_26f6c48c7bfc478c83b7d9bd2c4399cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2147badcdb244d1780eed68bd6548dc8 = $(`<div id="html_2147badcdb244d1780eed68bd6548dc8" style="width: 100.0%; height: 100.0%;">Elevation: 1575.0m Name: Kialagvik Type: Stratovolcano</div>`)[0];
+            popup_26f6c48c7bfc478c83b7d9bd2c4399cb.setContent(html_2147badcdb244d1780eed68bd6548dc8);
+        
+
+        circle_marker_7974575103ac466bb4c5b23fb0a0c5f9.bindPopup(popup_26f6c48c7bfc478c83b7d9bd2c4399cb)
+        ;
+
+        
+    
+    
+            var circle_marker_81fca8c2cba2454fafe17ad650067ce5 = L.circleMarker(
+                [19.425, -155.292],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_ec4913ebc41a43af88aa8bb430b20b86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f397eab4701f479cb7d095bfed125532 = $(`<div id="html_f397eab4701f479cb7d095bfed125532" style="width: 100.0%; height: 100.0%;">Elevation: 1222.0m Name: Kilauea Type: Shield volcano</div>`)[0];
+            popup_ec4913ebc41a43af88aa8bb430b20b86.setContent(html_f397eab4701f479cb7d095bfed125532);
+        
+
+        circle_marker_81fca8c2cba2454fafe17ad650067ce5.bindPopup(popup_ec4913ebc41a43af88aa8bb430b20b86)
+        ;
+
+        
+    
+    
+            var circle_marker_6895e2ba12b14fc2a17495d86172ffa1 = L.circleMarker(
+                [52.1, 177.6],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_022eef6cd9064205964fc7ddf62c9c71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3478614d3e4342ee8b3ca3ae8b259937 = $(`<div id="html_3478614d3e4342ee8b3ca3ae8b259937" style="width: 100.0%; height: 100.0%;">Elevation: 1220.0m Name: Kiska Type: Stratovolcano</div>`)[0];
+            popup_022eef6cd9064205964fc7ddf62c9c71.setContent(html_3478614d3e4342ee8b3ca3ae8b259937);
+        
+
+        circle_marker_6895e2ba12b14fc2a17495d86172ffa1.bindPopup(popup_022eef6cd9064205964fc7ddf62c9c71)
+        ;
+
+        
+    
+    
+            var circle_marker_b98a1456425b47148427ef3b351279c6 = L.circleMarker(
+                [52.22, -175.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_bb0d19be3a254f2d933b2c33161142f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_751a565826a143a0a9eaadd8bc570d3c = $(`<div id="html_751a565826a143a0a9eaadd8bc570d3c" style="width: 100.0%; height: 100.0%;">Elevation: 272.0m Name: Koniuji Type: Stratovolcano</div>`)[0];
+            popup_bb0d19be3a254f2d933b2c33161142f4.setContent(html_751a565826a143a0a9eaadd8bc570d3c);
+        
+
+        circle_marker_b98a1456425b47148427ef3b351279c6.bindPopup(popup_bb0d19be3a254f2d933b2c33161142f4)
+        ;
+
+        
+    
+    
+            var circle_marker_081a54d5b2174a6298db5cb615329b99 = L.circleMarker(
+                [63.6, -170.43],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_917f52c186c2440cb236156e06ed65a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_208f2f493a13428faafc65d587145457 = $(`<div id="html_208f2f493a13428faafc65d587145457" style="width: 100.0%; height: 100.0%;">Elevation: 673.0m Name: Kookooligit Mountains Type: Shield volcano</div>`)[0];
+            popup_917f52c186c2440cb236156e06ed65a1.setContent(html_208f2f493a13428faafc65d587145457);
+        
+
+        circle_marker_081a54d5b2174a6298db5cb615329b99.bindPopup(popup_917f52c186c2440cb236156e06ed65a1)
+        ;
+
+        
+    
+    
+            var circle_marker_a6099d0a8da84432ac43eee79c7aa4dc = L.circleMarker(
+                [58.47, -154.35],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_822872d6bdee4da68a76dd81e4dbd90c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f7d43d0b4ee4906866f656db6ebfab9 = $(`<div id="html_4f7d43d0b4ee4906866f656db6ebfab9" style="width: 100.0%; height: 100.0%;">Elevation: 2040.0m Name: Kukak Type: Stratovolcano</div>`)[0];
+            popup_822872d6bdee4da68a76dd81e4dbd90c.setContent(html_4f7d43d0b4ee4906866f656db6ebfab9);
+        
+
+        circle_marker_a6099d0a8da84432ac43eee79c7aa4dc.bindPopup(popup_822872d6bdee4da68a76dd81e4dbd90c)
+        ;
+
+        
+    
+    
+            var circle_marker_1a7cb66ae8564856aa6980aa0c8ac6ae = L.circleMarker(
+                [56.02, -159.8],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_db024ead36554be9979f187f5ac2a856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49966d2cbec34ebcbafa2e4096e0de24 = $(`<div id="html_49966d2cbec34ebcbafa2e4096e0de24" style="width: 100.0%; height: 100.0%;">Elevation: 1895.0m Name: Kupreanof Type: Stratovolcano</div>`)[0];
+            popup_db024ead36554be9979f187f5ac2a856.setContent(html_49966d2cbec34ebcbafa2e4096e0de24);
+        
+
+        circle_marker_1a7cb66ae8564856aa6980aa0c8ac6ae.bindPopup(popup_db024ead36554be9979f187f5ac2a856)
+        ;
+
+        
+    
+    
+            var circle_marker_ceb332d4e2d14944bacf1b90df8d7f98 = L.circleMarker(
+                [40.492, -121.508],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_34570d307eed4941a25815b97c81ff42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d960e2a9cb7e46a786242b3af08f7e60 = $(`<div id="html_d960e2a9cb7e46a786242b3af08f7e60" style="width: 100.0%; height: 100.0%;">Elevation: 3187.0m Name: Lassen Volc Center Type: Stratovolcano</div>`)[0];
+            popup_34570d307eed4941a25815b97c81ff42.setContent(html_d960e2a9cb7e46a786242b3af08f7e60);
+        
+
+        circle_marker_ceb332d4e2d14944bacf1b90df8d7f98.bindPopup(popup_34570d307eed4941a25815b97c81ff42)
+        ;
+
+        
+    
+    
+            var circle_marker_3706dbb0bd5a495cb114dacc7d73edfb = L.circleMarker(
+                [34.75, -116.625],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_da00faa42b0d49ebb38a82d283331f09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30aeb637252d42bbbb81e2dbd8467fbf = $(`<div id="html_30aeb637252d42bbbb81e2dbd8467fbf" style="width: 100.0%; height: 100.0%;">Elevation: 1495.0m Name: Lavic Lake Type: Volcanic field</div>`)[0];
+            popup_da00faa42b0d49ebb38a82d283331f09.setContent(html_30aeb637252d42bbbb81e2dbd8467fbf);
+        
+
+        circle_marker_3706dbb0bd5a495cb114dacc7d73edfb.bindPopup(popup_da00faa42b0d49ebb38a82d283331f09)
+        ;
+
+        
+    
+    
+            var circle_marker_2b7722f64e2a4388a470396c602ace58 = L.circleMarker(
+                [51.95, 178.53],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b33ce883aa254a0fa8ff324ddf7e95fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f7ea38160114d0c94eb947b536ca9cc = $(`<div id="html_4f7ea38160114d0c94eb947b536ca9cc" style="width: 100.0%; height: 100.0%;">Elevation: 1188.0m Name: Little Sitkin Type: Stratovolcano</div>`)[0];
+            popup_b33ce883aa254a0fa8ff324ddf7e95fe.setContent(html_4f7ea38160114d0c94eb947b536ca9cc);
+        
+
+        circle_marker_2b7722f64e2a4388a470396c602ace58.bindPopup(popup_b33ce883aa254a0fa8ff324ddf7e95fe)
+        ;
+
+        
+    
+    
+            var circle_marker_bc3d295cb97645c795673e058ce02e10 = L.circleMarker(
+                [18.92, -155.27],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_f396ade4e4584900bf9972807c117a46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_680ac593923246c9a900d994af8179cb = $(`<div id="html_680ac593923246c9a900d994af8179cb" style="width: 100.0%; height: 100.0%;">Elevation: -975.0m Name: Loihi Type: Submarine volcano</div>`)[0];
+            popup_f396ade4e4584900bf9972807c117a46.setContent(html_680ac593923246c9a900d994af8179cb);
+        
+
+        circle_marker_bc3d295cb97645c795673e058ce02e10.bindPopup(popup_f396ade4e4584900bf9972807c117a46)
+        ;
+
+        
+    
+    
+            var circle_marker_824a7c1cd7ba4504a3039ac4820f9af8 = L.circleMarker(
+                [58.2, -155.25],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_8a786a20375b489dabce9e6398f8cfd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b49cfc9566f436697e0d893e88b978a = $(`<div id="html_9b49cfc9566f436697e0d893e88b978a" style="width: 100.0%; height: 100.0%;">Elevation: 2165.0m Name: Mageik Type: Stratovolcano</div>`)[0];
+            popup_8a786a20375b489dabce9e6398f8cfd2.setContent(html_9b49cfc9566f436697e0d893e88b978a);
+        
+
+        circle_marker_824a7c1cd7ba4504a3039ac4820f9af8.bindPopup(popup_8a786a20375b489dabce9e6398f8cfd2)
+        ;
+
+        
+    
+    
+            var circle_marker_853396a3fd624332a73757871f115c13 = L.circleMarker(
+                [53.9, -166.93],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_46b7d275aaf1478982dd84dd3ef4b3e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9929ea4e3c1c468c9fabd1f4e6bd8489 = $(`<div id="html_9929ea4e3c1c468c9fabd1f4e6bd8489" style="width: 100.0%; height: 100.0%;">Elevation: 2036.0m Name: Makushin Type: Stratovolcano</div>`)[0];
+            popup_46b7d275aaf1478982dd84dd3ef4b3e2.setContent(html_9929ea4e3c1c468c9fabd1f4e6bd8489);
+        
+
+        circle_marker_853396a3fd624332a73757871f115c13.bindPopup(popup_46b7d275aaf1478982dd84dd3ef4b3e2)
+        ;
+
+        
+    
+    
+            var circle_marker_66d821f5ab6d4476afec3ceef2a5cbec = L.circleMarker(
+                [37.58, -112.67],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_54810c99ef6944c79dd6426c2bc7d656 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce871e31259b4bb0b39a8a174560d211 = $(`<div id="html_ce871e31259b4bb0b39a8a174560d211" style="width: 100.0%; height: 100.0%;">Elevation: 2840.0m Name: Markagunt Plateau Type: Volcanic field</div>`)[0];
+            popup_54810c99ef6944c79dd6426c2bc7d656.setContent(html_ce871e31259b4bb0b39a8a174560d211);
+        
+
+        circle_marker_66d821f5ab6d4476afec3ceef2a5cbec.bindPopup(popup_54810c99ef6944c79dd6426c2bc7d656)
+        ;
+
+        
+    
+    
+            var circle_marker_6bb7faf5f7204f0e8e00fdbc4c3ea998 = L.circleMarker(
+                [58.17, -155.35],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_a223f8b4191840409d9d48e6b07daa33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d726c681e884550be76e26cb999acda = $(`<div id="html_0d726c681e884550be76e26cb999acda" style="width: 100.0%; height: 100.0%;">Elevation: 1860.0m Name: Martin Type: Stratovolcano</div>`)[0];
+            popup_a223f8b4191840409d9d48e6b07daa33.setContent(html_0d726c681e884550be76e26cb999acda);
+        
+
+        circle_marker_6bb7faf5f7204f0e8e00fdbc4c3ea998.bindPopup(popup_a223f8b4191840409d9d48e6b07daa33)
+        ;
+
+        
+    
+    
+            var circle_marker_44c60caeda704316bc38b869b3c01f0b = L.circleMarker(
+                [20.017, 145.217],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_baf0da6c619d49578fba3a481293c77e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94356dba38d34587b8090187ae92229c = $(`<div id="html_94356dba38d34587b8090187ae92229c" style="width: 100.0%; height: 100.0%;">Elevation: 227.0m Name: Maug Islands Type: Stratovolcano</div>`)[0];
+            popup_baf0da6c619d49578fba3a481293c77e.setContent(html_94356dba38d34587b8090187ae92229c);
+        
+
+        circle_marker_44c60caeda704316bc38b869b3c01f0b.bindPopup(popup_baf0da6c619d49578fba3a481293c77e)
+        ;
+
+        
+    
+    
+            var circle_marker_56a9f28746c644d3892879480c3807e3 = L.circleMarker(
+                [19.82, -155.47],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_acd66170b0a441a491f140aac7e66d1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df6efa9b96524d6884b6c2af52768308 = $(`<div id="html_df6efa9b96524d6884b6c2af52768308" style="width: 100.0%; height: 100.0%;">Elevation: 4206.0m Name: Mauna Kea Type: Shield volcano</div>`)[0];
+            popup_acd66170b0a441a491f140aac7e66d1c.setContent(html_df6efa9b96524d6884b6c2af52768308);
+        
+
+        circle_marker_56a9f28746c644d3892879480c3807e3.bindPopup(popup_acd66170b0a441a491f140aac7e66d1c)
+        ;
+
+        
+    
+    
+            var circle_marker_8f9321f041da4d01939700dad7104776 = L.circleMarker(
+                [19.475, -155.608],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_64859086558b4d458a8a1cac91d00633 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06d53a56afcd43c5954d72a7c643010a = $(`<div id="html_06d53a56afcd43c5954d72a7c643010a" style="width: 100.0%; height: 100.0%;">Elevation: 4170.0m Name: Mauna Loa Type: Shield volcano</div>`)[0];
+            popup_64859086558b4d458a8a1cac91d00633.setContent(html_06d53a56afcd43c5954d72a7c643010a);
+        
+
+        circle_marker_8f9321f041da4d01939700dad7104776.bindPopup(popup_64859086558b4d458a8a1cac91d00633)
+        ;
+
+        
+    
+    
+            var circle_marker_a24883f858eb4d928f75f22e3b270b93 = L.circleMarker(
+                [41.58, -121.57],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_20bb28c86f144225841e81b894f182d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f24ebb206aa4f169ed7e96436644ba9 = $(`<div id="html_5f24ebb206aa4f169ed7e96436644ba9" style="width: 100.0%; height: 100.0%;">Elevation: 2412.0m Name: Medicine Lake Type: Shield volcano</div>`)[0];
+            popup_20bb28c86f144225841e81b894f182d2.setContent(html_5f24ebb206aa4f169ed7e96436644ba9);
+        
+
+        circle_marker_a24883f858eb4d928f75f22e3b270b93.bindPopup(popup_20bb28c86f144225841e81b894f182d2)
+        ;
+
+        
+    
+    
+            var circle_marker_5697cfd248094e4a8d937940947766ce = L.circleMarker(
+                [51.93, -176.75],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_8c2d334b9e1646488e162462ebe14233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_895214296d4a4480b568aada1027cd10 = $(`<div id="html_895214296d4a4480b568aada1027cd10" style="width: 100.0%; height: 100.0%;">Elevation: 1196.0m Name: Moffett Type: Stratovolcano</div>`)[0];
+            popup_8c2d334b9e1646488e162462ebe14233.setContent(html_895214296d4a4480b568aada1027cd10);
+        
+
+        circle_marker_5697cfd248094e4a8d937940947766ce.bindPopup(popup_8c2d334b9e1646488e162462ebe14233)
+        ;
+
+        
+    
+    
+            var circle_marker_daea4066480140a88bb2a235637cfd25 = L.circleMarker(
+                [37.88, -119.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b0f3e49da4644d689c06fecd5df0d7cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ce894da57bb4fa59801fbf39041fabe = $(`<div id="html_9ce894da57bb4fa59801fbf39041fabe" style="width: 100.0%; height: 100.0%;">Elevation: 2796.0m Name: Mono Craters Type: Lava dome</div>`)[0];
+            popup_b0f3e49da4644d689c06fecd5df0d7cc.setContent(html_9ce894da57bb4fa59801fbf39041fabe);
+        
+
+        circle_marker_daea4066480140a88bb2a235637cfd25.bindPopup(popup_b0f3e49da4644d689c06fecd5df0d7cc)
+        ;
+
+        
+    
+    
+            var circle_marker_193c2220e733463f89c88e7b9509ff41 = L.circleMarker(
+                [38.0, -119.03],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4490d420c49641c3987a1ef1b2149979 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24d0c486d571414cac491a8578b7cf1e = $(`<div id="html_24d0c486d571414cac491a8578b7cf1e" style="width: 100.0%; height: 100.0%;">Elevation: 2121.0m Name: Mono Lake Volc Field Type: Cinder cone</div>`)[0];
+            popup_4490d420c49641c3987a1ef1b2149979.setContent(html_24d0c486d571414cac491a8578b7cf1e);
+        
+
+        circle_marker_193c2220e733463f89c88e7b9509ff41.bindPopup(popup_4490d420c49641c3987a1ef1b2149979)
+        ;
+
+        
+    
+    
+            var circle_marker_12579f3bdc4844a1beb7f973032a27a5 = L.circleMarker(
+                [14.601, 144.775],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_988ae0fcec594d49a5f9f708b95526b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4168a5b529eb46d09e4e74b18b8e914b = $(`<div id="html_4168a5b529eb46d09e4e74b18b8e914b" style="width: 100.0%; height: 100.0%;">Elevation: -517.0m Name: NW Rota-1 Type: Submarine volcano</div>`)[0];
+            popup_988ae0fcec594d49a5f9f708b95526b0.setContent(html_4168a5b529eb46d09e4e74b18b8e914b);
+        
+
+        circle_marker_12579f3bdc4844a1beb7f973032a27a5.bindPopup(popup_988ae0fcec594d49a5f9f708b95526b0)
+        ;
+
+        
+    
+    
+            var circle_marker_1b483f08431347b0a97c1d3b4d487b89 = L.circleMarker(
+                [43.722, -121.229],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_7c352e90e9844cb1954463bf58f104d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc2f42960d934eceb0297f2fb9f0566d = $(`<div id="html_fc2f42960d934eceb0297f2fb9f0566d" style="width: 100.0%; height: 100.0%;">Elevation: 2434.0m Name: Newberry Volcano Type: Shield volcano</div>`)[0];
+            popup_7c352e90e9844cb1954463bf58f104d5.setContent(html_fc2f42960d934eceb0297f2fb9f0566d);
+        
+
+        circle_marker_1b483f08431347b0a97c1d3b4d487b89.bindPopup(popup_7c352e90e9844cb1954463bf58f104d5)
+        ;
+
+        
+    
+    
+            var circle_marker_6f04dc170d6244739b5807c9c471f5e5 = L.circleMarker(
+                [44.17, -121.77],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_cff753142b15466e836d70e94fab36d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ef6bf917d83494c905d324f923d5a89 = $(`<div id="html_2ef6bf917d83494c905d324f923d5a89" style="width: 100.0%; height: 100.0%;">Elevation: 3074.0m Name: North Sister Field Type: Complex volcano</div>`)[0];
+            popup_cff753142b15466e836d70e94fab36d9.setContent(html_2ef6bf917d83494c905d324f923d5a89);
+        
+
+        circle_marker_6f04dc170d6244739b5807c9c471f5e5.bindPopup(popup_cff753142b15466e836d70e94fab36d9)
+        ;
+
+        
+    
+    
+            var circle_marker_05b81900bc694136be0c379d3ad6ffbf = L.circleMarker(
+                [58.27, -155.16],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_352f39ea04cc431183587039e599df41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c50bae66aee4d069bbdea668222384e = $(`<div id="html_6c50bae66aee4d069bbdea668222384e" style="width: 100.0%; height: 100.0%;">Elevation: 841.0m Name: Novarupta Type: Caldera</div>`)[0];
+            popup_352f39ea04cc431183587039e599df41.setContent(html_6c50bae66aee4d069bbdea668222384e);
+        
+
+        circle_marker_05b81900bc694136be0c379d3ad6ffbf.bindPopup(popup_352f39ea04cc431183587039e599df41)
+        ;
+
+        
+    
+    
+            var circle_marker_0f1af0a1ec554e92b94cab269fc79fa6 = L.circleMarker(
+                [60.02, -166.33],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_8c62488d0a6841b6952abb23a76f250e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d30bd5141f044efe86b66b11a4f995e5 = $(`<div id="html_d30bd5141f044efe86b66b11a4f995e5" style="width: 100.0%; height: 100.0%;">Elevation: 511.0m Name: Nunivak Island Type: Shield volcano</div>`)[0];
+            popup_8c62488d0a6841b6952abb23a76f250e.setContent(html_d30bd5141f044efe86b66b11a4f995e5);
+        
+
+        circle_marker_0f1af0a1ec554e92b94cab269fc79fa6.bindPopup(popup_8c62488d0a6841b6952abb23a76f250e)
+        ;
+
+        
+    
+    
+            var circle_marker_5ce5f3862224432a887c9b98400d4890 = L.circleMarker(
+                [-14.175, -169.618],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d3e2e09d5a094c03a6893ddac589e5f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94dc775bd25846fe815d42ac7cf74eed = $(`<div id="html_94dc775bd25846fe815d42ac7cf74eed" style="width: 100.0%; height: 100.0%;">Elevation: 639.0m Name: Ofu-Olosega Type: Shield volcano</div>`)[0];
+            popup_d3e2e09d5a094c03a6893ddac589e5f8.setContent(html_94dc775bd25846fe815d42ac7cf74eed);
+        
+
+        circle_marker_5ce5f3862224432a887c9b98400d4890.bindPopup(popup_d3e2e09d5a094c03a6893ddac589e5f8)
+        ;
+
+        
+    
+    
+            var circle_marker_719b78bf12714751885a8edc710bb052 = L.circleMarker(
+                [53.42, -168.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_8c4ff10361ac41fbb90ed628abc5dff6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fac5639c620844ec957f533e7071b09b = $(`<div id="html_fac5639c620844ec957f533e7071b09b" style="width: 100.0%; height: 100.0%;">Elevation: 1073.0m Name: Okmok Type: Shield volcano</div>`)[0];
+            popup_8c4ff10361ac41fbb90ed628abc5dff6.setContent(html_fac5639c620844ec957f533e7071b09b);
+        
+
+        circle_marker_719b78bf12714751885a8edc710bb052.bindPopup(popup_8c4ff10361ac41fbb90ed628abc5dff6)
+        ;
+
+        
+    
+    
+            var circle_marker_8d1601b4fc714b139f2701ab40449da8 = L.circleMarker(
+                [18.13, 145.8],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_db80478a50a648f8b03c54cd7e061ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf67cafbf09f48e6b66363490ff7ffef = $(`<div id="html_cf67cafbf09f48e6b66363490ff7ffef" style="width: 100.0%; height: 100.0%;">Elevation: 570.0m Name: Pagan Type: Stratovolcano</div>`)[0];
+            popup_db80478a50a648f8b03c54cd7e061ae1.setContent(html_cf67cafbf09f48e6b66363490ff7ffef);
+        
+
+        circle_marker_8d1601b4fc714b139f2701ab40449da8.bindPopup(popup_db80478a50a648f8b03c54cd7e061ae1)
+        ;
+
+        
+    
+    
+            var circle_marker_b17038ad3b63404c8f93249dbf59d3f1 = L.circleMarker(
+                [55.42, -161.9],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_5e012e3f58754f3691c07333a1ac94a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b194e5bbaf74c15b07476bfa1829c14 = $(`<div id="html_3b194e5bbaf74c15b07476bfa1829c14" style="width: 100.0%; height: 100.0%;">Elevation: 2519.0m Name: Pavlof Type: Stratovolcano</div>`)[0];
+            popup_5e012e3f58754f3691c07333a1ac94a4.setContent(html_3b194e5bbaf74c15b07476bfa1829c14);
+        
+
+        circle_marker_b17038ad3b63404c8f93249dbf59d3f1.bindPopup(popup_5e012e3f58754f3691c07333a1ac94a4)
+        ;
+
+        
+    
+    
+            var circle_marker_aa224ec3353b4b65b834ce0600371857 = L.circleMarker(
+                [55.45, -161.87],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0fb38fab7afc44dbb9dfed103d8a8df8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76d42e6061e04948a61e050d7da2c1a4 = $(`<div id="html_76d42e6061e04948a61e050d7da2c1a4" style="width: 100.0%; height: 100.0%;">Elevation: 2142.0m Name: Pavlof Sister Type: Stratovolcano</div>`)[0];
+            popup_0fb38fab7afc44dbb9dfed103d8a8df8.setContent(html_76d42e6061e04948a61e050d7da2c1a4);
+        
+
+        circle_marker_aa224ec3353b4b65b834ce0600371857.bindPopup(popup_0fb38fab7afc44dbb9dfed103d8a8df8)
+        ;
+
+        
+    
+    
+            var circle_marker_049882958d054fcf97de4c4ebd6b26e5 = L.circleMarker(
+                [46.87, -121.758],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_96ba008489734599b585909493ca78d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ea59260a12d42c0b4667974268b36da = $(`<div id="html_1ea59260a12d42c0b4667974268b36da" style="width: 100.0%; height: 100.0%;">Elevation: 4392.0m Name: Rainier Type: Stratovolcano</div>`)[0];
+            popup_96ba008489734599b585909493ca78d4.setContent(html_1ea59260a12d42c0b4667974268b36da);
+        
+
+        circle_marker_049882958d054fcf97de4c4ebd6b26e5.bindPopup(popup_96ba008489734599b585909493ca78d4)
+        ;
+
+        
+    
+    
+            var circle_marker_06b50aa92d484f99aeee71c02ff50ed5 = L.circleMarker(
+                [53.15, -168.55],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0bd0335eacd8488a8b0d04270f2a402d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e546fee5014d4713b99a4ce181cccd43 = $(`<div id="html_e546fee5014d4713b99a4ce181cccd43" style="width: 100.0%; height: 100.0%;">Elevation: 1984.0m Name: Recheschnoi Type: Stratovolcano</div>`)[0];
+            popup_0bd0335eacd8488a8b0d04270f2a402d.setContent(html_e546fee5014d4713b99a4ce181cccd43);
+        
+
+        circle_marker_06b50aa92d484f99aeee71c02ff50ed5.bindPopup(popup_0bd0335eacd8488a8b0d04270f2a402d)
+        ;
+
+        
+    
+    
+            var circle_marker_ca9e54e562da4c38ba92b455e7518c9f = L.circleMarker(
+                [37.58, -119.05],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_1e73447f4ca841fb980cf53723190ced = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74498d69df314fe18492b0323190ab0a = $(`<div id="html_74498d69df314fe18492b0323190ab0a" style="width: 100.0%; height: 100.0%;">Elevation: 2748.0m Name: Red Cones Type: Cinder cone</div>`)[0];
+            popup_1e73447f4ca841fb980cf53723190ced.setContent(html_74498d69df314fe18492b0323190ab0a);
+        
+
+        circle_marker_ca9e54e562da4c38ba92b455e7518c9f.bindPopup(popup_1e73447f4ca841fb980cf53723190ced)
+        ;
+
+        
+    
+    
+            var circle_marker_2943ed8c819a406b88b130da926d45ca = L.circleMarker(
+                [60.48, -152.75],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d94522321aac4d46b3734aa4c9bcc48d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee8d38d59a3747b389e9706f94a88b7b = $(`<div id="html_ee8d38d59a3747b389e9706f94a88b7b" style="width: 100.0%; height: 100.0%;">Elevation: 3108.0m Name: Redoubt Type: Stratovolcano</div>`)[0];
+            popup_d94522321aac4d46b3734aa4c9bcc48d.setContent(html_ee8d38d59a3747b389e9706f94a88b7b);
+        
+
+        circle_marker_2943ed8c819a406b88b130da926d45ca.bindPopup(popup_d94522321aac4d46b3734aa4c9bcc48d)
+        ;
+
+        
+    
+    
+            var circle_marker_9fcb988df13347db845a1954a8a02966 = L.circleMarker(
+                [54.8, -163.6],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b0ca9ecab93046509deccdc1536ccfd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92de4ab7dd944d31b293c2ce0fd7b5a1 = $(`<div id="html_92de4ab7dd944d31b293c2ce0fd7b5a1" style="width: 100.0%; height: 100.0%;">Elevation: 1871.0m Name: Roundtop Type: Stratovolcano</div>`)[0];
+            popup_b0ca9ecab93046509deccdc1536ccfd2.setContent(html_92de4ab7dd944d31b293c2ce0fd7b5a1);
+        
+
+        circle_marker_9fcb988df13347db845a1954a8a02966.bindPopup(popup_b0ca9ecab93046509deccdc1536ccfd2)
+        ;
+
+        
+    
+    
+            var circle_marker_f3cfbaa86d9a4f38a5e935a3c616341e = L.circleMarker(
+                [15.617, 145.567],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_519d05d3b6e74c1b9a2b68428d0fb77b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53a7a84b884047d2a4358ee8c5aa4680 = $(`<div id="html_53a7a84b884047d2a4358ee8c5aa4680" style="width: 100.0%; height: 100.0%;">Elevation: -230.0m Name: Ruby Type: Submarine volcano</div>`)[0];
+            popup_519d05d3b6e74c1b9a2b68428d0fb77b.setContent(html_53a7a84b884047d2a4358ee8c5aa4680);
+        
+
+        circle_marker_f3cfbaa86d9a4f38a5e935a3c616341e.bindPopup(popup_519d05d3b6e74c1b9a2b68428d0fb77b)
+        ;
+
+        
+    
+    
+            var circle_marker_e160b1a98e4f47caa302de74316cd7fd = L.circleMarker(
+                [15.62, 145.57],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_9b1c747578344f97ba790c46fa82d2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_186ee9063a804b9c84e136a3c6b83496 = $(`<div id="html_186ee9063a804b9c84e136a3c6b83496" style="width: 100.0%; height: 100.0%;">Elevation: -230.0m Name: Ruby Type: Submarine volcano</div>`)[0];
+            popup_9b1c747578344f97ba790c46fa82d2b7.setContent(html_186ee9063a804b9c84e136a3c6b83496);
+        
+
+        circle_marker_e160b1a98e4f47caa302de74316cd7fd.bindPopup(popup_9b1c747578344f97ba790c46fa82d2b7)
+        ;
+
+        
+    
+    
+            var circle_marker_7fd5e78cde364d768be0637ce7da46f5 = L.circleMarker(
+                [44.38, -121.93],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4c7075632fe8411e96c05403155fd2c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae31c180f3d94d339f6c65b952382870 = $(`<div id="html_ae31c180f3d94d339f6c65b952382870" style="width: 100.0%; height: 100.0%;">Elevation: 1664.0m Name: Sand Mountain Field Type: Cinder cone</div>`)[0];
+            popup_4c7075632fe8411e96c05403155fd2c3.setContent(html_ae31c180f3d94d339f6c65b952382870);
+        
+
+        circle_marker_7fd5e78cde364d768be0637ce7da46f5.bindPopup(popup_4c7075632fe8411e96c05403155fd2c3)
+        ;
+
+        
+    
+    
+            var circle_marker_9aec2377939945b899356b16b2493986 = L.circleMarker(
+                [62.22, -144.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4d11feb116b844b09b8ab3ce68ab955d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8c474d1b3eb4efda5ec92b62a49d881 = $(`<div id="html_a8c474d1b3eb4efda5ec92b62a49d881" style="width: 100.0%; height: 100.0%;">Elevation: 4949.0m Name: Sanford Type: Shield volcano</div>`)[0];
+            popup_4d11feb116b844b09b8ab3ce68ab955d.setContent(html_a8c474d1b3eb4efda5ec92b62a49d881);
+        
+
+        circle_marker_9aec2377939945b899356b16b2493986.bindPopup(popup_4d11feb116b844b09b8ab3ce68ab955d)
+        ;
+
+        
+    
+    
+            var circle_marker_48963627d07f42a390adbd66481c3087 = L.circleMarker(
+                [37.257, -113.625],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_a70df5dde2a349bf9d9aa990a53f9189 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3836d857ed5d4fd5a5967b1da6cbd563 = $(`<div id="html_3836d857ed5d4fd5a5967b1da6cbd563" style="width: 100.0%; height: 100.0%;">Elevation: 1465.0m Name: Santa Clara Type: Volcanic field</div>`)[0];
+            popup_a70df5dde2a349bf9d9aa990a53f9189.setContent(html_3836d857ed5d4fd5a5967b1da6cbd563);
+        
+
+        circle_marker_48963627d07f42a390adbd66481c3087.bindPopup(popup_a70df5dde2a349bf9d9aa990a53f9189)
+        ;
+
+        
+    
+    
+            var circle_marker_fe4278e1f84943ef9cccc0927bf61c10 = L.circleMarker(
+                [16.708, 145.783],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4355263c31b74100ac6930978a265187 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce6cef7068954d438f2a844718887e16 = $(`<div id="html_ce6cef7068954d438f2a844718887e16" style="width: 100.0%; height: 100.0%;">Elevation: 538.0m Name: Sarigan Type: Stratovolcano</div>`)[0];
+            popup_4355263c31b74100ac6930978a265187.setContent(html_ce6cef7068954d438f2a844718887e16);
+        
+
+        circle_marker_fe4278e1f84943ef9cccc0927bf61c10.bindPopup(popup_4355263c31b74100ac6930978a265187)
+        ;
+
+        
+    
+    
+            var circle_marker_5661543d2d704b43964170e03b57d3fb = L.circleMarker(
+                [16.708, 145.78],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_9278e3f245124643b519791dca36db97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ca101d757b34c60a910b3f954ad36ff = $(`<div id="html_1ca101d757b34c60a910b3f954ad36ff" style="width: 100.0%; height: 100.0%;">Elevation: 538.0m Name: Sarigan Type: Stratovolcano</div>`)[0];
+            popup_9278e3f245124643b519791dca36db97.setContent(html_1ca101d757b34c60a910b3f954ad36ff);
+        
+
+        circle_marker_5661543d2d704b43964170e03b57d3fb.bindPopup(popup_9278e3f245124643b519791dca36db97)
+        ;
+
+        
+    
+    
+            var circle_marker_e4a25af1e6c741c6a9db7c1ee696823e = L.circleMarker(
+                [13.25, 144.017],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_88b48570b7a845b5b897dd01018f137f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ed22d87da0044a7a6751c2ba237aac0 = $(`<div id="html_1ed22d87da0044a7a6751c2ba237aac0" style="width: 100.0%; height: 100.0%;">Elevation: -1230.0m Name: Seamount X Type: Submarine volcano</div>`)[0];
+            popup_88b48570b7a845b5b897dd01018f137f.setContent(html_1ed22d87da0044a7a6751c2ba237aac0);
+        
+
+        circle_marker_e4a25af1e6c741c6a9db7c1ee696823e.bindPopup(popup_88b48570b7a845b5b897dd01018f137f)
+        ;
+
+        
+    
+    
+            var circle_marker_0ae1a7e1b89f477196845c7ea46b67de = L.circleMarker(
+                [52.32, -172.52],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_aea050fa31954af78747130db0bffb5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef735ccd8d6a43d69c886941542ed608 = $(`<div id="html_ef735ccd8d6a43d69c886941542ed608" style="width: 100.0%; height: 100.0%;">Elevation: 1054.0m Name: Seguam Type: Stratovolcano</div>`)[0];
+            popup_aea050fa31954af78747130db0bffb5b.setContent(html_ef735ccd8d6a43d69c886941542ed608);
+        
+
+        circle_marker_0ae1a7e1b89f477196845c7ea46b67de.bindPopup(popup_aea050fa31954af78747130db0bffb5b)
+        ;
+
+        
+    
+    
+            var circle_marker_b4ecd955c8e045c5b0a78c45822e68d6 = L.circleMarker(
+                [52.02, 178.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_bbc6e4a2eae1406b97505bfaa8a106dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5bc359ed1c14f5a81191a94daf7809c = $(`<div id="html_c5bc359ed1c14f5a81191a94daf7809c" style="width: 100.0%; height: 100.0%;">Elevation: 1153.0m Name: Segula Type: Stratovolcano</div>`)[0];
+            popup_bbc6e4a2eae1406b97505bfaa8a106dc.setContent(html_c5bc359ed1c14f5a81191a94daf7809c);
+        
+
+        circle_marker_b4ecd955c8e045c5b0a78c45822e68d6.bindPopup(popup_bbc6e4a2eae1406b97505bfaa8a106dc)
+        ;
+
+        
+    
+    
+            var circle_marker_84d766d751744138a72ad3120f541475 = L.circleMarker(
+                [51.95, 179.62],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_15a68153598047ca858704b605fd0292 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b90fe8f9b044348941617e24de4e58d = $(`<div id="html_2b90fe8f9b044348941617e24de4e58d" style="width: 100.0%; height: 100.0%;">Elevation: 1221.0m Name: Semisopochnoi Type: Stratovolcano</div>`)[0];
+            popup_15a68153598047ca858704b605fd0292.setContent(html_2b90fe8f9b044348941617e24de4e58d);
+        
+
+        circle_marker_84d766d751744138a72ad3120f541475.bindPopup(popup_15a68153598047ca858704b605fd0292)
+        ;
+
+        
+    
+    
+            var circle_marker_d0759c6cfe134ab5b9fde5c098c0417a = L.circleMarker(
+                [52.03, -174.93],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b86740a1d02b416aaad768014b2bf36a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aafeee919fa493a8d2153614ed08d62 = $(`<div id="html_1aafeee919fa493a8d2153614ed08d62" style="width: 100.0%; height: 100.0%;">Elevation: 560.0m Name: Sergief Type: Stratovolcano</div>`)[0];
+            popup_b86740a1d02b416aaad768014b2bf36a.setContent(html_1aafeee919fa493a8d2153614ed08d62);
+        
+
+        circle_marker_d0759c6cfe134ab5b9fde5c098c0417a.bindPopup(popup_b86740a1d02b416aaad768014b2bf36a)
+        ;
+
+        
+    
+    
+            var circle_marker_1aee9bd5678747e1927760cfcebfa9ec = L.circleMarker(
+                [41.42, -122.2],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d7002c1651524947984dbc609cb1fd10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87bb8ca8a2644f8da9d72c25b63c1f42 = $(`<div id="html_87bb8ca8a2644f8da9d72c25b63c1f42" style="width: 100.0%; height: 100.0%;">Elevation: 4317.0m Name: Shasta Type: Stratovolcano</div>`)[0];
+            popup_d7002c1651524947984dbc609cb1fd10.setContent(html_87bb8ca8a2644f8da9d72c25b63c1f42);
+        
+
+        circle_marker_1aee9bd5678747e1927760cfcebfa9ec.bindPopup(popup_d7002c1651524947984dbc609cb1fd10)
+        ;
+
+        
+    
+    
+            var circle_marker_b702a9d7142d4117a24ada753df6887c = L.circleMarker(
+                [54.75, -163.97],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_eda3194f6f4e4e1fa3dbe338909189b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d3e380f8ba541cfb0099250143a4bde = $(`<div id="html_6d3e380f8ba541cfb0099250143a4bde" style="width: 100.0%; height: 100.0%;">Elevation: 2857.0m Name: Shishaldin Type: Stratovolcano</div>`)[0];
+            popup_eda3194f6f4e4e1fa3dbe338909189b6.setContent(html_6d3e380f8ba541cfb0099250143a4bde);
+        
+
+        circle_marker_b702a9d7142d4117a24ada753df6887c.bindPopup(popup_eda3194f6f4e4e1fa3dbe338909189b6)
+        ;
+
+        
+    
+    
+            var circle_marker_39caf6eb66bb4a31a9995df9a079a7d8 = L.circleMarker(
+                [43.07, -114.43],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_6e5d2b0119a04d6f90f29237ae5c6787 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a89e4f948f3747ce92b5ec51efbb6bb0 = $(`<div id="html_a89e4f948f3747ce92b5ec51efbb6bb0" style="width: 100.0%; height: 100.0%;">Elevation: 1525.0m Name: Shoshone Lava Field Type: Cinder cone</div>`)[0];
+            popup_6e5d2b0119a04d6f90f29237ae5c6787.setContent(html_a89e4f948f3747ce92b5ec51efbb6bb0);
+        
+
+        circle_marker_39caf6eb66bb4a31a9995df9a079a7d8.bindPopup(popup_6e5d2b0119a04d6f90f29237ae5c6787)
+        ;
+
+        
+    
+    
+            var circle_marker_285027f9c49f43b3ad1883567d00e255 = L.circleMarker(
+                [58.33, -154.68],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0699205a9a804af087275812a193f6f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_079d5352d571476a98f3130e28a21a6b = $(`<div id="html_079d5352d571476a98f3130e28a21a6b" style="width: 100.0%; height: 100.0%;">Elevation: 2161.0m Name: Snowy Type: Stratovolcano</div>`)[0];
+            popup_0699205a9a804af087275812a193f6f2.setContent(html_079d5352d571476a98f3130e28a21a6b);
+        
+
+        circle_marker_285027f9c49f43b3ad1883567d00e255.bindPopup(popup_0699205a9a804af087275812a193f6f2)
+        ;
+
+        
+    
+    
+            var circle_marker_87923b1071dd43669f2ecd15a0ddd177 = L.circleMarker(
+                [44.1, -121.77],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_a0c2571ca86e4d6d9bc4610fdb0aed0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec0fc6c6626a4cc6ae80d1f17fe6624d = $(`<div id="html_ec0fc6c6626a4cc6ae80d1f17fe6624d" style="width: 100.0%; height: 100.0%;">Elevation: 3157.0m Name: South Sister Type: Complex volcano</div>`)[0];
+            popup_a0c2571ca86e4d6d9bc4610fdb0aed0e.setContent(html_ec0fc6c6626a4cc6ae80d1f17fe6624d);
+        
+
+        circle_marker_87923b1071dd43669f2ecd15a0ddd177.bindPopup(popup_a0c2571ca86e4d6d9bc4610fdb0aed0e)
+        ;
+
+        
+    
+    
+            var circle_marker_854e8406ca8246bdb9d3cabdc92478a1 = L.circleMarker(
+                [61.3, -152.25],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_23281daf89364ba481234e1484cb8304 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57be8d9c9f774dcda3a55953e31edbc9 = $(`<div id="html_57be8d9c9f774dcda3a55953e31edbc9" style="width: 100.0%; height: 100.0%;">Elevation: 3374.0m Name: Spurr Type: Stratovolcano</div>`)[0];
+            popup_23281daf89364ba481234e1484cb8304.setContent(html_57be8d9c9f774dcda3a55953e31edbc9);
+        
+
+        circle_marker_854e8406ca8246bdb9d3cabdc92478a1.bindPopup(popup_23281daf89364ba481234e1484cb8304)
+        ;
+
+        
+    
+    
+            var circle_marker_7f7f60483bcd4c80b44c915e73a49b50 = L.circleMarker(
+                [43.472, -120.754],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_6cec9479bb564ce081f49ad54a52f473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_164b077e630d4b709deec9276e72c8ac = $(`<div id="html_164b077e630d4b709deec9276e72c8ac" style="width: 100.0%; height: 100.0%;">Elevation: 1711.0m Name: Squaw Ridge Field Type: Volcanic field</div>`)[0];
+            popup_6cec9479bb564ce081f49ad54a52f473.setContent(html_164b077e630d4b709deec9276e72c8ac);
+        
+
+        circle_marker_7f7f60483bcd4c80b44c915e73a49b50.bindPopup(popup_6cec9479bb564ce081f49ad54a52f473)
+        ;
+
+        
+    
+    
+            var circle_marker_5c5f26b5b8544626b5e1fd2b3e409df0 = L.circleMarker(
+                [46.2, -122.18],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4a1b6f7088814c67aa5a79d313337e9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1579022dbb3d4bb7905b5c8cf6c45136 = $(`<div id="html_1579022dbb3d4bb7905b5c8cf6c45136" style="width: 100.0%; height: 100.0%;">Elevation: 2549.0m Name: St. Helens Type: Stratovolcano</div>`)[0];
+            popup_4a1b6f7088814c67aa5a79d313337e9f.setContent(html_1579022dbb3d4bb7905b5c8cf6c45136);
+        
+
+        circle_marker_5c5f26b5b8544626b5e1fd2b3e409df0.bindPopup(popup_4a1b6f7088814c67aa5a79d313337e9f)
+        ;
+
+        
+    
+    
+            var circle_marker_b8d0ed3faaad437993dcee3c76b23932 = L.circleMarker(
+                [63.45, -162.12],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_c6fcea3873074ec286a4a207149e1d47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db43df17de14435e8a0ab74e74934ed7 = $(`<div id="html_db43df17de14435e8a0ab74e74934ed7" style="width: 100.0%; height: 100.0%;">Elevation: 715.0m Name: St. Michael Type: Shield volcano</div>`)[0];
+            popup_c6fcea3873074ec286a4a207149e1d47.setContent(html_db43df17de14435e8a0ab74e74934ed7);
+        
+
+        circle_marker_b8d0ed3faaad437993dcee3c76b23932.bindPopup(popup_c6fcea3873074ec286a4a207149e1d47)
+        ;
+
+        
+    
+    
+            var circle_marker_4b297fab15f148149b2a740075dec962 = L.circleMarker(
+                [39.375, -119.72],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_842b6c02a98c4611b67c830fac05d49d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fe204f1e7b5495b952d5dcff58c6ded = $(`<div id="html_8fe204f1e7b5495b952d5dcff58c6ded" style="width: 100.0%; height: 100.0%;">Elevation: 1415.0m Name: Steamboat Springs Type: Lava dome</div>`)[0];
+            popup_842b6c02a98c4611b67c830fac05d49d.setContent(html_8fe204f1e7b5495b952d5dcff58c6ded);
+        
+
+        circle_marker_4b297fab15f148149b2a740075dec962.bindPopup(popup_842b6c02a98c4611b67c830fac05d49d)
+        ;
+
+        
+    
+    
+            var circle_marker_23398dabebf4426ea1bff8f7a932a051 = L.circleMarker(
+                [58.43, -154.4],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_068e2cdfba7e4903a5080e10d8888976 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ad0241b83c2456db614bd4dcba77ffb = $(`<div id="html_9ad0241b83c2456db614bd4dcba77ffb" style="width: 100.0%; height: 100.0%;">Elevation: 2272.0m Name: Steller Type: Unknown</div>`)[0];
+            popup_068e2cdfba7e4903a5080e10d8888976.setContent(html_9ad0241b83c2456db614bd4dcba77ffb);
+        
+
+        circle_marker_23398dabebf4426ea1bff8f7a932a051.bindPopup(popup_068e2cdfba7e4903a5080e10d8888976)
+        ;
+
+        
+    
+    
+            var circle_marker_0f852a21846640d39c9af3607130820e = L.circleMarker(
+                [55.929, -160.002],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b284666173fb4b5abcd50955fef85973 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_515ec970e03f4d6a8c44a0bff8d83363 = $(`<div id="html_515ec970e03f4d6a8c44a0bff8d83363" style="width: 100.0%; height: 100.0%;">Elevation: 1555.0m Name: Stepovak Bay 3 Type: Cinder cone</div>`)[0];
+            popup_b284666173fb4b5abcd50955fef85973.setContent(html_515ec970e03f4d6a8c44a0bff8d83363);
+        
+
+        circle_marker_0f852a21846640d39c9af3607130820e.bindPopup(popup_b284666173fb4b5abcd50955fef85973)
+        ;
+
+        
+    
+    
+            var circle_marker_5a0fa1f0c5e841669520c91d7c8ac1eb = L.circleMarker(
+                [55.954, -159.954],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_018fa805e2f542559d85cf1b54ecd71f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d38b37ba8a3143b381711173ce6d4114 = $(`<div id="html_d38b37ba8a3143b381711173ce6d4114" style="width: 100.0%; height: 100.0%;">Elevation: 1557.0m Name: Stepovak Bay 4 Type: Stratovolcano</div>`)[0];
+            popup_018fa805e2f542559d85cf1b54ecd71f.setContent(html_d38b37ba8a3143b381711173ce6d4114);
+        
+
+        circle_marker_5a0fa1f0c5e841669520c91d7c8ac1eb.bindPopup(popup_018fa805e2f542559d85cf1b54ecd71f)
+        ;
+
+        
+    
+    
+            var circle_marker_07e271c8dde54350a4754cca2c53e9ef = L.circleMarker(
+                [35.37, -111.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_5e1091e519ca41db8d8cf869a670d223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe0e6c43594a4e8a9e445069c945e2a0 = $(`<div id="html_fe0e6c43594a4e8a9e445069c945e2a0" style="width: 100.0%; height: 100.0%;">Elevation: 2447.0m Name: Sunset Crater Type: Cinder cone</div>`)[0];
+            popup_5e1091e519ca41db8d8cf869a670d223.setContent(html_fe0e6c43594a4e8a9e445069c945e2a0);
+        
+
+        circle_marker_07e271c8dde54350a4754cca2c53e9ef.bindPopup(popup_5e1091e519ca41db8d8cf869a670d223)
+        ;
+
+        
+    
+    
+            var circle_marker_36b8ef2dd7684f3583ce1aef4cd148f3 = L.circleMarker(
+                [20.13, 145.1],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_e93982fff8f245f7b515d1c524fe5132 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f40a911c1158416b9b5e7e37adc9e23a = $(`<div id="html_f40a911c1158416b9b5e7e37adc9e23a" style="width: 100.0%; height: 100.0%;">Elevation: -8.0m Name: Supply Reef Type: Submarine volcano</div>`)[0];
+            popup_e93982fff8f245f7b515d1c524fe5132.setContent(html_f40a911c1158416b9b5e7e37adc9e23a);
+        
+
+        circle_marker_36b8ef2dd7684f3583ce1aef4cd148f3.bindPopup(popup_e93982fff8f245f7b515d1c524fe5132)
+        ;
+
+        
+    
+    
+            var circle_marker_44acc22ef55341c38b203792ca0735f4 = L.circleMarker(
+                [-14.23, -169.454],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_c354d157862a4e248e80c8b5ab58fbdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_999a5175424a4da4aff7da19a992b5ec = $(`<div id="html_999a5175424a4da4aff7da19a992b5ec" style="width: 100.0%; height: 100.0%;">Elevation: 931.0m Name: Ta'u Type: Shield volcano</div>`)[0];
+            popup_c354d157862a4e248e80c8b5ab58fbdd.setContent(html_999a5175424a4da4aff7da19a992b5ec);
+        
+
+        circle_marker_44acc22ef55341c38b203792ca0735f4.bindPopup(popup_c354d157862a4e248e80c8b5ab58fbdd)
+        ;
+
+        
+    
+    
+            var circle_marker_b664358101404faebbc329f4e13bc446 = L.circleMarker(
+                [51.87, -178.02],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d5370c46a7de46a3bdc12c427a9b6dbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b73ac00b08140bcab90f980bce62f07 = $(`<div id="html_5b73ac00b08140bcab90f980bce62f07" style="width: 100.0%; height: 100.0%;">Elevation: 1449.0m Name: Takawangha Type: Stratovolcano</div>`)[0];
+            popup_d5370c46a7de46a3bdc12c427a9b6dbb.setContent(html_5b73ac00b08140bcab90f980bce62f07);
+        
+
+        circle_marker_b664358101404faebbc329f4e13bc446.bindPopup(popup_d5370c46a7de46a3bdc12c427a9b6dbb)
+        ;
+
+        
+    
+    
+            var circle_marker_bfb9f7be44f54119a77bf2864f6b6b43 = L.circleMarker(
+                [52.833, -169.767],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d2e1b81a93a14af88dd13d607539dc79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e49fffc50d244ee1bd12e34181a1a285 = $(`<div id="html_e49fffc50d244ee1bd12e34181a1a285" style="width: 100.0%; height: 100.0%;">Elevation: 1170.0m Name: Tana Type: Stratovolcanoes</div>`)[0];
+            popup_d2e1b81a93a14af88dd13d607539dc79.setContent(html_e49fffc50d244ee1bd12e34181a1a285);
+        
+
+        circle_marker_bfb9f7be44f54119a77bf2864f6b6b43.bindPopup(popup_d2e1b81a93a14af88dd13d607539dc79)
+        ;
+
+        
+    
+    
+            var circle_marker_a43ba5b7a5724047acff3bc05c1f5627 = L.circleMarker(
+                [51.88, -178.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_50a4e2c2c64b43d1bdedc48b193afbe5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c8888a1036e4c4f81b0dc03d8e18345 = $(`<div id="html_9c8888a1036e4c4f81b0dc03d8e18345" style="width: 100.0%; height: 100.0%;">Elevation: 1806.0m Name: Tanaga Type: Stratovolcano</div>`)[0];
+            popup_50a4e2c2c64b43d1bdedc48b193afbe5.setContent(html_9c8888a1036e4c4f81b0dc03d8e18345);
+        
+
+        circle_marker_a43ba5b7a5724047acff3bc05c1f5627.bindPopup(popup_50a4e2c2c64b43d1bdedc48b193afbe5)
+        ;
+
+        
+    
+    
+            var circle_marker_bf3b53e38536487fbd48de02b1f44366 = L.circleMarker(
+                [55.25, -133.3],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_d31213040dcc416b9a78d6f68c1c8213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9135e646dc7b48ef87fa64e68e56182d = $(`<div id="html_9135e646dc7b48ef87fa64e68e56182d" style="width: 100.0%; height: 100.0%;">Elevation: 50.0m Name: Tlevak Strait-Suemez Is. Type: Volcanic field</div>`)[0];
+            popup_d31213040dcc416b9a78d6f68c1c8213.setContent(html_9135e646dc7b48ef87fa64e68e56182d);
+        
+
+        circle_marker_bf3b53e38536487fbd48de02b1f44366.bindPopup(popup_d31213040dcc416b9a78d6f68c1c8213)
+        ;
+
+        
+    
+    
+            var circle_marker_923c4ebb69a94bffa20cc13fee3a8c4c = L.circleMarker(
+                [58.23, -155.08],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_1f670120680b4f88909044e2a68b7708 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59e8e6746a784eaa9ade63192ce4c05c = $(`<div id="html_59e8e6746a784eaa9ade63192ce4c05c" style="width: 100.0%; height: 100.0%;">Elevation: 1864.0m Name: Trident Type: Stratovolcano</div>`)[0];
+            popup_1f670120680b4f88909044e2a68b7708.setContent(html_59e8e6746a784eaa9ade63192ce4c05c);
+        
+
+        circle_marker_923c4ebb69a94bffa20cc13fee3a8c4c.bindPopup(popup_1f670120680b4f88909044e2a68b7708)
+        ;
+
+        
+    
+    
+            var circle_marker_9ca5fe4254944fe1b3f4ae92f2525597 = L.circleMarker(
+                [40.68, -121.55],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_a11da423a34c49e98a06747046c781fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab5e4b22176748eab6b6f3bd4da21dfd = $(`<div id="html_ab5e4b22176748eab6b6f3bd4da21dfd" style="width: 100.0%; height: 100.0%;">Elevation: 2191.0m Name: Tumble Buttes Type: Cinder cone</div>`)[0];
+            popup_a11da423a34c49e98a06747046c781fb.setContent(html_ab5e4b22176748eab6b6f3bd4da21dfd);
+        
+
+        circle_marker_9ca5fe4254944fe1b3f4ae92f2525597.bindPopup(popup_a11da423a34c49e98a06747046c781fb)
+        ;
+
+        
+    
+    
+            var circle_marker_75bffcf0b03441f9b6972acacf557ff6 = L.circleMarker(
+                [40.78, -121.6],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b829dfb1a4ad4516af0708a918bdea6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e54362c920d840f9aec2f6d5845a0a77 = $(`<div id="html_e54362c920d840f9aec2f6d5845a0a77" style="width: 100.0%; height: 100.0%;">Elevation: 1631.0m Name: Twin Buttes Type: Cinder cone</div>`)[0];
+            popup_b829dfb1a4ad4516af0708a918bdea6c.setContent(html_e54362c920d840f9aec2f6d5845a0a77);
+        
+
+        circle_marker_75bffcf0b03441f9b6972acacf557ff6.bindPopup(popup_b829dfb1a4ad4516af0708a918bdea6c)
+        ;
+
+        
+    
+    
+            var circle_marker_ef791dbd41444be394902494b56af4ac = L.circleMarker(
+                [37.02, -117.45],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_e0bbe1573b8a42998c0f8d3163b794f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4adb629d9254b6b9101abaac2f38311 = $(`<div id="html_f4adb629d9254b6b9101abaac2f38311" style="width: 100.0%; height: 100.0%;">Elevation: 752.0m Name: Ubehebe Craters Type: Maar</div>`)[0];
+            popup_e0bbe1573b8a42998c0f8d3163b794f3.setContent(html_f4adb629d9254b6b9101abaac2f38311);
+        
+
+        circle_marker_ef791dbd41444be394902494b56af4ac.bindPopup(popup_e0bbe1573b8a42998c0f8d3163b794f3)
+        ;
+
+        
+    
+    
+            var circle_marker_1dc7fb64aba94003b37b7e14fab9a553 = L.circleMarker(
+                [57.75, -156.37],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_152e77366cb54c968044c675d00a4287 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aad157aded2b4390bd1092df3ab2fdfb = $(`<div id="html_aad157aded2b4390bd1092df3ab2fdfb" style="width: 100.0%; height: 100.0%;">Elevation: 1474.0m Name: Ugashik-Peulik Type: Stratovolcano</div>`)[0];
+            popup_152e77366cb54c968044c675d00a4287.setContent(html_aad157aded2b4390bd1092df3ab2fdfb);
+        
+
+        circle_marker_1dc7fb64aba94003b37b7e14fab9a553.bindPopup(popup_152e77366cb54c968044c675d00a4287)
+        ;
+
+        
+    
+    
+            var circle_marker_7fb38df2c947403a8d1c3d0ff278962d = L.circleMarker(
+                [36.38, -113.13],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_e51d76e48613487d9046b413aa86c5cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5a124726ce540b4bfa5936f8607ac87 = $(`<div id="html_d5a124726ce540b4bfa5936f8607ac87" style="width: 100.0%; height: 100.0%;">Elevation: 1555.0m Name: Uinkaret Field Type: Volcanic field</div>`)[0];
+            popup_e51d76e48613487d9046b413aa86c5cc.setContent(html_d5a124726ce540b4bfa5936f8607ac87);
+        
+
+        circle_marker_7fb38df2c947403a8d1c3d0ff278962d.bindPopup(popup_e51d76e48613487d9046b413aa86c5cc)
+        ;
+
+        
+    
+    
+            var circle_marker_83148c1cdfe34c509505ff4c0485e804 = L.circleMarker(
+                [57.83, -156.52],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_bf316cd4ed204112bc1f8a87967f772c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a320f85d7ac54350a59b27ce393c7a27 = $(`<div id="html_a320f85d7ac54350a59b27ce393c7a27" style="width: 100.0%; height: 100.0%;">Elevation: 91.0m Name: Ukinrek Maars Type: Maar</div>`)[0];
+            popup_bf316cd4ed204112bc1f8a87967f772c.setContent(html_a320f85d7ac54350a59b27ce393c7a27);
+        
+
+        circle_marker_83148c1cdfe34c509505ff4c0485e804.bindPopup(popup_bf316cd4ed204112bc1f8a87967f772c)
+        ;
+
+        
+    
+    
+            var circle_marker_80243464e8bf493a8b42cdb405fb5514 = L.circleMarker(
+                [53.07, -169.77],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_61b35a7ed6f34835bf541d9c50900abf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8be0f102f8cd4c3ea5459ce1e72382d4 = $(`<div id="html_8be0f102f8cd4c3ea5459ce1e72382d4" style="width: 100.0%; height: 100.0%;">Elevation: 888.0m Name: Uliaga Type: Stratovolcano</div>`)[0];
+            popup_61b35a7ed6f34835bf541d9c50900abf.setContent(html_8be0f102f8cd4c3ea5459ce1e72382d4);
+        
+
+        circle_marker_80243464e8bf493a8b42cdb405fb5514.bindPopup(popup_61b35a7ed6f34835bf541d9c50900abf)
+        ;
+
+        
+    
+    
+            var circle_marker_0d2d927766b44ed8a34f40d2b3fd8448 = L.circleMarker(
+                [-14.23, -169.07],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_0abf5fb1deea486893608f671e5b7df7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3301c73ffb6d4ff888f81e796b2843b2 = $(`<div id="html_3301c73ffb6d4ff888f81e796b2843b2" style="width: 100.0%; height: 100.0%;">Elevation: -650.0m Name: Unnamed Type: Submarine volcano</div>`)[0];
+            popup_0abf5fb1deea486893608f671e5b7df7.setContent(html_3301c73ffb6d4ff888f81e796b2843b2);
+        
+
+        circle_marker_0d2d927766b44ed8a34f40d2b3fd8448.bindPopup(popup_0abf5fb1deea486893608f671e5b7df7)
+        ;
+
+        
+    
+    
+            var circle_marker_32841ba059044cf6bc50c11b32b0d258 = L.circleMarker(
+                [52.0, -173.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_27291ae0000349b4b6e4eaf7ee73f51a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f42f68e4d3b4717a340715b176de8f0 = $(`<div id="html_3f42f68e4d3b4717a340715b176de8f0" style="width: 100.0%; height: 100.0%;">Elevation: 0.0m Name: Unnamed Type: Submarine volcano</div>`)[0];
+            popup_27291ae0000349b4b6e4eaf7ee73f51a.setContent(html_3f42f68e4d3b4717a340715b176de8f0);
+        
+
+        circle_marker_32841ba059044cf6bc50c11b32b0d258.bindPopup(popup_27291ae0000349b4b6e4eaf7ee73f51a)
+        ;
+
+        
+    
+    
+            var circle_marker_e265dccb0cce4b2a80a671808b217cba = L.circleMarker(
+                [21.0, 142.9],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_1a2d5d3d6c494609983fb691fd0e75b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cffba65345cb446fa305e6776a22fb6b = $(`<div id="html_cffba65345cb446fa305e6776a22fb6b" style="width: 100.0%; height: 100.0%;">Elevation: nanm Name: Unnamed Type: Submarine volcano?</div>`)[0];
+            popup_1a2d5d3d6c494609983fb691fd0e75b3.setContent(html_cffba65345cb446fa305e6776a22fb6b);
+        
+
+        circle_marker_e265dccb0cce4b2a80a671808b217cba.bindPopup(popup_1a2d5d3d6c494609983fb691fd0e75b3)
+        ;
+
+        
+    
+    
+            var circle_marker_b9ec0b94f1b54fa5a9b3e3edb38bcf8e = L.circleMarker(
+                [20.3, 143.2],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_f76dca22a2314ccfba79c798cf0ea062 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_090545062ce149fd95125ccaf4e07066 = $(`<div id="html_090545062ce149fd95125ccaf4e07066" style="width: 100.0%; height: 100.0%;">Elevation: nanm Name: Unnamed Type: Submarine volcano?</div>`)[0];
+            popup_f76dca22a2314ccfba79c798cf0ea062.setContent(html_090545062ce149fd95125ccaf4e07066);
+        
+
+        circle_marker_b9ec0b94f1b54fa5a9b3e3edb38bcf8e.bindPopup(popup_f76dca22a2314ccfba79c798cf0ea062)
+        ;
+
+        
+    
+    
+            var circle_marker_40d50813392f43c3b9939582281fbec7 = L.circleMarker(
+                [23.58, -163.83],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_30393552ec9241b8b8d0fb22ee77055b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e08dbd188374b84b6200f535861364d = $(`<div id="html_2e08dbd188374b84b6200f535861364d" style="width: 100.0%; height: 100.0%;">Elevation: -4000.0m Name: Unnamed Type: Submarine volcano</div>`)[0];
+            popup_30393552ec9241b8b8d0fb22ee77055b.setContent(html_2e08dbd188374b84b6200f535861364d);
+        
+
+        circle_marker_40d50813392f43c3b9939582281fbec7.bindPopup(popup_30393552ec9241b8b8d0fb22ee77055b)
+        ;
+
+        
+    
+    
+            var circle_marker_e12245645eca4d4096a456c1acf2544f = L.circleMarker(
+                [21.75, -158.75],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b6103397873941558752994ed667b69b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffbba224a5a143bcb9892bdab286f8cb = $(`<div id="html_ffbba224a5a143bcb9892bdab286f8cb" style="width: 100.0%; height: 100.0%;">Elevation: -3000.0m Name: Unnamed Type: Submarine volcano</div>`)[0];
+            popup_b6103397873941558752994ed667b69b.setContent(html_ffbba224a5a143bcb9892bdab286f8cb);
+        
+
+        circle_marker_e12245645eca4d4096a456c1acf2544f.bindPopup(popup_b6103397873941558752994ed667b69b)
+        ;
+
+        
+    
+    
+            var circle_marker_6e18c2b2eb644df498a5359498877ab4 = L.circleMarker(
+                [21.0, 142.9],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_04c1a580995043519ae227a071314dab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec7d09ad089e49efa4276168766f23aa = $(`<div id="html_ec7d09ad089e49efa4276168766f23aa" style="width: 100.0%; height: 100.0%;">Elevation: 0.0m Name: Unnamed Type: Submarine volcano</div>`)[0];
+            popup_04c1a580995043519ae227a071314dab.setContent(html_ec7d09ad089e49efa4276168766f23aa);
+        
+
+        circle_marker_6e18c2b2eb644df498a5359498877ab4.bindPopup(popup_04c1a580995043519ae227a071314dab)
+        ;
+
+        
+    
+    
+            var circle_marker_cd30d4e23653419491e5d49c2f77cb43 = L.circleMarker(
+                [55.93, -160.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_aeebbf03553541509dbf6a55e3f97257 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d39793bb05f40518287d57fdae52717 = $(`<div id="html_1d39793bb05f40518287d57fdae52717" style="width: 100.0%; height: 100.0%;">Elevation: 1555.0m Name: Unnamed Type: Cinder cone</div>`)[0];
+            popup_aeebbf03553541509dbf6a55e3f97257.setContent(html_1d39793bb05f40518287d57fdae52717);
+        
+
+        circle_marker_cd30d4e23653419491e5d49c2f77cb43.bindPopup(popup_aeebbf03553541509dbf6a55e3f97257)
+        ;
+
+        
+    
+    
+            var circle_marker_4172db00f16649a5b207f6c5a9918e7e = L.circleMarker(
+                [20.3, 143.2],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_bf91a8375f2d4bfea69d0305cf8147fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fa1c7ec0c2843988022e844d91278e8 = $(`<div id="html_4fa1c7ec0c2843988022e844d91278e8" style="width: 100.0%; height: 100.0%;">Elevation: 0.0m Name: Unnamed Type: Submarine volcano</div>`)[0];
+            popup_bf91a8375f2d4bfea69d0305cf8147fe.setContent(html_4fa1c7ec0c2843988022e844d91278e8);
+        
+
+        circle_marker_4172db00f16649a5b207f6c5a9918e7e.bindPopup(popup_bf91a8375f2d4bfea69d0305cf8147fe)
+        ;
+
+        
+    
+    
+            var circle_marker_a1080f93785240f181c93c6a02c9b17c = L.circleMarker(
+                [57.87, -155.42],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_6aa61d0362be46a9a631efd99696672e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b99cd076aef44d078ec40b69e6658364 = $(`<div id="html_b99cd076aef44d078ec40b69e6658364" style="width: 100.0%; height: 100.0%;">Elevation: 300.0m Name: Unnamed Type: Lava dome</div>`)[0];
+            popup_6aa61d0362be46a9a631efd99696672e.setContent(html_b99cd076aef44d078ec40b69e6658364);
+        
+
+        circle_marker_a1080f93785240f181c93c6a02c9b17c.bindPopup(popup_6aa61d0362be46a9a631efd99696672e)
+        ;
+
+        
+    
+    
+            var circle_marker_55e7fe87ba184ad7b8c7168af97bcef1 = L.circleMarker(
+                [-3.03, 147.78],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_b7feee42205d41e6aed02877ab7ba794 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e871ab955834b8f9db929a84c125994 = $(`<div id="html_1e871ab955834b8f9db929a84c125994" style="width: 100.0%; height: 100.0%;">Elevation: -1300.0m Name: Unnamed Type: Submarine volcano</div>`)[0];
+            popup_b7feee42205d41e6aed02877ab7ba794.setContent(html_1e871ab955834b8f9db929a84c125994);
+        
+
+        circle_marker_55e7fe87ba184ad7b8c7168af97bcef1.bindPopup(popup_b7feee42205d41e6aed02877ab7ba794)
+        ;
+
+        
+    
+    
+            var circle_marker_ed403d1ac7e34c8d968e21f9a7321707 = L.circleMarker(
+                [56.17, -159.38],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_bac821172ef04420b4589835cb73ca6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e3519ee50514868bd3d3776e147e476 = $(`<div id="html_6e3519ee50514868bd3d3776e147e476" style="width: 100.0%; height: 100.0%;">Elevation: 2507.0m Name: Veniaminof Type: Stratovolcano</div>`)[0];
+            popup_bac821172ef04420b4589835cb73ca6b.setContent(html_6e3519ee50514868bd3d3776e147e476);
+        
+
+        circle_marker_ed403d1ac7e34c8d968e21f9a7321707.bindPopup(popup_bac821172ef04420b4589835cb73ca6b)
+        ;
+
+        
+    
+    
+            var circle_marker_a2b92813fa98480fa45a9e9126e4da0c = L.circleMarker(
+                [53.13, -168.68],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_9943896d2b094e32857b0c5533175206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ba6ff2e9ab34f9a89f72fc7c4af4b68 = $(`<div id="html_4ba6ff2e9ab34f9a89f72fc7c4af4b68" style="width: 100.0%; height: 100.0%;">Elevation: 2149.0m Name: Vsevidof Type: Stratovolcano</div>`)[0];
+            popup_9943896d2b094e32857b0c5533175206.setContent(html_4ba6ff2e9ab34f9a89f72fc7c4af4b68);
+        
+
+        circle_marker_a2b92813fa98480fa45a9e9126e4da0c.bindPopup(popup_9943896d2b094e32857b0c5533175206)
+        ;
+
+        
+    
+    
+            var circle_marker_9158abf1510a48bf8fcfbfbf2eddcc31 = L.circleMarker(
+                [42.88, -113.22],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_42a5041bf3b24359aa2012b0fd5d1aea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0c0fb5192dc444d88c19186434955d8 = $(`<div id="html_e0c0fb5192dc444d88c19186434955d8" style="width: 100.0%; height: 100.0%;">Elevation: 1604.0m Name: Wapi Lava Field Type: Shield volcano</div>`)[0];
+            popup_42a5041bf3b24359aa2012b0fd5d1aea.setContent(html_e0c0fb5192dc444d88c19186434955d8);
+        
+
+        circle_marker_9158abf1510a48bf8fcfbfbf2eddcc31.bindPopup(popup_42a5041bf3b24359aa2012b0fd5d1aea)
+        ;
+
+        
+    
+    
+            var circle_marker_38d057da7f8d4e0495b4d641bf436fcf = L.circleMarker(
+                [45.88, -122.08],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_81a57786ac544ae188c00a163f8f6429 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09b0c808b43a45db85d2cbfbd0a40e6c = $(`<div id="html_09b0c808b43a45db85d2cbfbd0a40e6c" style="width: 100.0%; height: 100.0%;">Elevation: 1329.0m Name: West Crater Type: Volcanic field</div>`)[0];
+            popup_81a57786ac544ae188c00a163f8f6429.setContent(html_09b0c808b43a45db85d2cbfbd0a40e6c);
+        
+
+        circle_marker_38d057da7f8d4e0495b4d641bf436fcf.bindPopup(popup_81a57786ac544ae188c00a163f8f6429)
+        ;
+
+        
+    
+    
+            var circle_marker_4e103fd3b30b4dd0a1207c57b26f817e = L.circleMarker(
+                [54.52, -164.65],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_03fd7084a5e14fa8abf0a9963dcd9865 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02e9dd598eec432db690627a4100d806 = $(`<div id="html_02e9dd598eec432db690627a4100d806" style="width: 100.0%; height: 100.0%;">Elevation: 1654.0m Name: Westdahl Type: Stratovolcano</div>`)[0];
+            popup_03fd7084a5e14fa8abf0a9963dcd9865.setContent(html_02e9dd598eec432db690627a4100d806);
+        
+
+        circle_marker_4e103fd3b30b4dd0a1207c57b26f817e.bindPopup(popup_03fd7084a5e14fa8abf0a9963dcd9865)
+        ;
+
+        
+    
+    
+            var circle_marker_d83c55e7e9a64bd386016e62b496adc2 = L.circleMarker(
+                [62.0, -144.02],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_4fb24ca8c7314d55a775a201cf761f14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23d2325d2ef143e89a2e95198ec02c69 = $(`<div id="html_23d2325d2ef143e89a2e95198ec02c69" style="width: 100.0%; height: 100.0%;">Elevation: 4317.0m Name: Wrangell Type: Shield volcano</div>`)[0];
+            popup_4fb24ca8c7314d55a775a201cf761f14.setContent(html_23d2325d2ef143e89a2e95198ec02c69);
+        
+
+        circle_marker_d83c55e7e9a64bd386016e62b496adc2.bindPopup(popup_4fb24ca8c7314d55a775a201cf761f14)
+        ;
+
+        
+    
+    
+            var circle_marker_e2d9a67efb3246399da5593064c6cd4a = L.circleMarker(
+                [57.02, -157.18],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_fca723550e8c44dd9dc1beebca9a97ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad3254c283254a2fba263e505cd256a1 = $(`<div id="html_ad3254c283254a2fba263e505cd256a1" style="width: 100.0%; height: 100.0%;">Elevation: 1336.0m Name: Yantarni Type: Stratovolcano</div>`)[0];
+            popup_fca723550e8c44dd9dc1beebca9a97ca.setContent(html_ad3254c283254a2fba263e505cd256a1);
+        
+
+        circle_marker_e2d9a67efb3246399da5593064c6cd4a.bindPopup(popup_fca723550e8c44dd9dc1beebca9a97ca)
+        ;
+
+        
+    
+    
+            var circle_marker_d67fd54ccd774bee97370b52e8b476a2 = L.circleMarker(
+                [44.43, -110.67],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_16c7e8a076e446c594b77fc30b411ccf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c270b7fd61084f93b1a4a04869da625c = $(`<div id="html_c270b7fd61084f93b1a4a04869da625c" style="width: 100.0%; height: 100.0%;">Elevation: 2805.0m Name: Yellowstone Type: Caldera</div>`)[0];
+            popup_16c7e8a076e446c594b77fc30b411ccf.setContent(html_c270b7fd61084f93b1a4a04869da625c);
+        
+
+        circle_marker_d67fd54ccd774bee97370b52e8b476a2.bindPopup(popup_16c7e8a076e446c594b77fc30b411ccf)
+        ;
+
+        
+    
+    
+            var circle_marker_a4b8e973e707429ea43a77b96fbca533 = L.circleMarker(
+                [52.63, -170.63],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_15ce08bfc7df425e9333530705000648 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03a8a12078604f16bba354f8b594f9f8 = $(`<div id="html_03a8a12078604f16bba354f8b594f9f8" style="width: 100.0%; height: 100.0%;">Elevation: 550.0m Name: Yunaska Type: Shield volcano</div>`)[0];
+            popup_15ce08bfc7df425e9333530705000648.setContent(html_03a8a12078604f16bba354f8b594f9f8);
+        
+
+        circle_marker_a4b8e973e707429ea43a77b96fbca533.bindPopup(popup_15ce08bfc7df425e9333530705000648)
+        ;
+
+        
+    
+    
+            var circle_marker_09ae36cc798540219315f044504d8780 = L.circleMarker(
+                [34.8, -108.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4e1d6f3a45e74584ba742604bd1e10da);
+        
+    
+        var popup_ac80e5b721f346f9bb7c0896c07f346c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6bb1e187dde4f2d871a87f1a6a9ab14 = $(`<div id="html_b6bb1e187dde4f2d871a87f1a6a9ab14" style="width: 100.0%; height: 100.0%;">Elevation: 2550.0m Name: Zuni-Bandera Type: Volcanic field</div>`)[0];
+            popup_ac80e5b721f346f9bb7c0896c07f346c.setContent(html_b6bb1e187dde4f2d871a87f1a6a9ab14);
+        
+
+        circle_marker_09ae36cc798540219315f044504d8780.bindPopup(popup_ac80e5b721f346f9bb7c0896c07f346c)
+        ;
+
+        
+    
+</script>
